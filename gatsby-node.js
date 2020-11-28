@@ -14,7 +14,8 @@ exports.createPages = ({ actions, graphql }) => {
             id
             frontmatter {
               path
-              title
+              entry
+              week
             }
           }
         }

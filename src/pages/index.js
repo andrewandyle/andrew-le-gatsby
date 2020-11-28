@@ -38,7 +38,7 @@ const IndexPage = () => (
     <ButtonContainer>
       <DownloadResume
         rel="noopener noreferrer"
-        href="/resume.pdf"
+        href="/AndrewLe-Resume.pdf"
         target="_blank"
       >
         DOWNLOAD RESUME

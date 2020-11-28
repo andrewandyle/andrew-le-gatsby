@@ -1,7 +1,7 @@
 ---
 path: "/life/oop-blog/blog-1"
-title: "Blog #1 (Week of 8/24 - 8/30)"
 entry: 1
+week: "8/24 - 8/30"
 ---
 
 * **Where did you grow up?**

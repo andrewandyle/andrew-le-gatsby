@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
+#back {
+  color: white;
+  text-decoration: none;
+}
+
+#back:visited {
+  color: white;
+}
+
+#icon {
+  margin-right: 5px;
+}
+
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
