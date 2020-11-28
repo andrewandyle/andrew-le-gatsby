@@ -16,7 +16,7 @@ import {
   SlideshowContainer,
   SingleSlide,
   SlideTitle,
-} from '../styles/Home.styles'
+} from '../styles/index.styles'
 
 // Images
 import Portrait from '../images/home/portrait.jpg'

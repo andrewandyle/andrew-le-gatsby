@@ -6,7 +6,7 @@ import Logo from '../images/icons/logo.png'
 import LinkedIn from '../images/icons/linkedin.png'
 import GitHub from '../images/icons/github.jpg'
 
-import { Wrapper } from '../styles/Header.styles'
+import { Wrapper } from '../styles/header.styles'
 
 const Header = ({ siteTitle }) => (
   <Wrapper>

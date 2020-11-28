@@ -9,7 +9,8 @@ const OOPBlogPage = ({ data }) => (
     <SEO title="OOP Blog Posts" />	
     <div>
       <Link to="/life">Back</Link>
-      <h1>OOP Blog Posts</h1>
+      <h1>CS371p Fall 2020: Andrew Le</h1>
+      <h3>This is a series of blog posts for CS371p, Object-Oriented Programming.</h3>
       {data.allMarkdownRemark.edges.map(post => (
         <div key={post.node.id}>
           <Link to={post.node.frontmatter.path}>{post.node.frontmatter.title}</Link>
@@ -21,7 +22,7 @@ const OOPBlogPage = ({ data }) => (
 
 export const blogQuery = graphql`
   query BlogIndexQuery {
-    allMarkdownRemark {
+    allMarkdownRemark(sort: {order: DESC, fields: frontmatter___entry}) {
       edges {
         node {
           id

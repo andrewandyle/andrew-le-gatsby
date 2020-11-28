@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { fadeInFromTop, fadeInFromLeft, fadeInFromRight } from './Keyframes'
+import { fadeInFromTop, fadeInFromLeft, fadeInFromRight } from './keyframes'
 
 export const LogoContainer = styled.div`
   display: flex;
