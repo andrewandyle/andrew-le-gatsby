@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { gradients, shadows } from '../colors'
 import { fadeInFromTop } from '../keyframes'
 
 export const BlogList = styled.div`
@@ -11,9 +12,11 @@ export const BlogList = styled.div`
 `
 
 export const BlogCard = styled.div`
+  background: ${gradients['purple']};
+  box-shadow: ${shadows['purple']};
   width: 150px;
   color: white;
-  border: 2px solid white;
+  border: none;
   border-radius: 5px;
   margin: 10px;
   padding: 5px;
@@ -22,10 +25,9 @@ export const BlogCard = styled.div`
   ${({ index }) => `animation-duration: ${index && `${index * 200}ms`};};`}
 
   &:hover {
-    color: lightgreen;
-    border: 2px solid lightgreen;
+    filter: saturate(200%);
     transform: translateY(-10px);
-    transition: transform 300ms ease;
+    transition: transform 300ms ease, filter 300ms ease;
   }
 `
 

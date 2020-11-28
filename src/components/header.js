@@ -1,14 +1,13 @@
 import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
 
 import Logo from '../images/icons/logo.png'
 import LinkedIn from '../images/icons/linkedin.png'
 import GitHub from '../images/icons/github.jpg'
 
-import { Wrapper } from '../styles/header.styles'
+import { Wrapper } from '../styles/components/header.styles'
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <Wrapper>
     <Link to="/">
       <img src={Logo} height={70} alt="Andrew Le" />
@@ -27,13 +26,5 @@ const Header = ({ siteTitle }) => (
     </a>
   </Wrapper>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header

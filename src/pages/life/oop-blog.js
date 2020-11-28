@@ -4,18 +4,11 @@ import { graphql, Link } from 'gatsby'
 import Layout from "../../components/layout"	
 import SEO from "../../components/seo"
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowAltCircleLeft } from '@fortawesome/free-solid-svg-icons'
-
 import { BlogList, BlogCard } from '../../styles/life/oop-blog.styles'
 
 const OOPBlogPage = ({ data }) => (
-  <Layout>	
+  <Layout back="/life">	
     <SEO title="OOP Blog Posts" />	
-    <Link id="back" to="/life">
-      <FontAwesomeIcon id="icon" icon={faArrowAltCircleLeft} />
-      Back
-    </Link>
     <h1>CS371p Fall 2020: Andrew Le</h1>
     <h3>This is a series of blog posts for CS371p, Object-Oriented Programming.</h3>
     <BlogList>

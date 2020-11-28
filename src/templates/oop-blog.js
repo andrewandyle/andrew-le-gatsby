@@ -1,11 +1,8 @@
 import React from 'react'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 
 import Layout from "../components/layout"	
 import SEO from "../components/seo"
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowAltCircleLeft } from '@fortawesome/free-solid-svg-icons'
 
 import { BlogBody, ImageContainer } from '../styles/life/oop-blog.styles'
 
@@ -15,13 +12,9 @@ export default function Template({ data }) {
   const post = data.markdownRemark
 
   return (
-    <Layout>
+    <Layout back="/life/oop-blog">
       <SEO title={post.frontmatter.title}/>
       <BlogBody>
-        <Link id="back" to="/life/oop-blog">
-          <FontAwesomeIcon id="icon" icon={faArrowAltCircleLeft} />
-          Back
-        </Link>
         <ImageContainer>
           <img src={OOPAvi} alt="OOP Avi" />
         </ImageContainer>

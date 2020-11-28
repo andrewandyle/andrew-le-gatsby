@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { gradients, shadows } from './colors'
 import { fadeInFromTop, fadeInFromLeft, fadeInFromRight } from './keyframes'
 
 export const LogoContainer = styled.div`
@@ -20,8 +21,8 @@ export const ButtonContainer = styled.div`
 export const DownloadResume = styled.a`
   color: white;
   font-weight: 500;
-  background: linear-gradient(45deg, #2196F3 30%, #21CBF3 90%);
-  box-shadow: 0 3px 5px 2px rgba(33, 203, 243, .3);
+  background: ${gradients['blue']};
+  box-shadow: ${shadows['blue']};
   border: none;
   border-radius: 5px;
   height: 48px;
