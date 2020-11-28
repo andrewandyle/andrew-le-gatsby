@@ -19,10 +19,10 @@ const Header = ({ siteTitle }) => (
     <Link to="/experience">
       Experience
     </Link>
-    <a href="https://www.linkedin.com/in/andrewandyle/" target="_blank">
+    <a href="https://www.linkedin.com/in/andrewandyle/" target="_blank" rel="noreferrer">
       <img src={LinkedIn} height={50} alt="LinkedIn" />
     </a>
-    <a href="https://github.com/andrewandyle" target="_blank">
+    <a href="https://github.com/andrewandyle" target="_blank" rel="noreferrer">
       <img src={GitHub} height={50} alt="GitHub" />
     </a>
   </Wrapper>

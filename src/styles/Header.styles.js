@@ -16,6 +16,7 @@ export const Wrapper = styled.header`
     text-decoration: none;
     font-weight: 500;
     font-size: 36px;
+    transition: 600ms ease;
 
     &:hover {
       filter: drop-shadow(0px 0px 10px white);

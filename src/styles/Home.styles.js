@@ -12,6 +12,8 @@ export const LogoContainer = styled.div`
 export const WelcomeContainer = styled.div`
   margin-bottom: 50px;
   text-align: center;
+  animation: ${fadeInFromTop};
+  animation-duration: 1000ms;
 `
 
 export const PicturesContainer = styled.div`
@@ -53,8 +55,17 @@ export const SingleSlide = styled.div`
   text-align: left;
   height: auto;
   padding: 40px;
-  
+`
+
+export const SlideTitle = styled.div`
+  display: flex;
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-weight: 500;
+  align-items: center;
+
   & img {
-    height: 200px;
+    height: 75px;
+    margin-right: 15px;
   }
 `
