@@ -1,8 +1,24 @@
 import React from "react"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+
+// Slideshow
 import { Slide } from 'react-slideshow-image'
 import 'react-slideshow-image/dist/styles.css'
-import { LogoContainer, WelcomeContainer, PicturesContainer, SlideshowContainer, SingleSlide, SlideTitle } from '../styles/Home.styles'
 
+// Styled Components
+import {
+  LogoContainer,
+  ButtonContainer,
+  DownloadResume,
+  WelcomeContainer,
+  PicturesContainer,
+  SlideshowContainer,
+  SingleSlide,
+  SlideTitle,
+} from '../styles/Home.styles'
+
+// Images
 import Portrait from '../images/home/portrait.jpg'
 import Setup from '../images/home/setup.jpg'
 import Wonderspaces from '../images/home/wonderspaces.jpg'
@@ -13,15 +29,21 @@ import ProMazo from '../images/icons/promazo.png'
 import EdgeLearning from '../images/icons/edgelearning.png'
 import Citi from '../images/icons/citi.png'
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Andrew Le" />
     <LogoContainer>
       <img src={Logo} width={800} alt="Logo" />
     </LogoContainer>
+    <ButtonContainer>
+      <DownloadResume
+        rel="noopener noreferrer"
+        href="/resume.pdf"
+        target="_blank"
+      >
+        DOWNLOAD RESUME
+      </DownloadResume>
+    </ButtonContainer>
     <WelcomeContainer>
       <PicturesContainer>
         <img id="left" src={Portrait} alt="Portrait" />
@@ -42,16 +64,14 @@ const IndexPage = () => (
       >
         <SingleSlide>
           <SlideTitle>
-            <img src={ComputerScience} alt="UT Computer Science" />
-            <span>The Starting Point</span>
+            <img src={ComputerScience} alt="UT Computer Science" /> The Starting Point
           </SlideTitle>
           <p>I began my Computer Science studies at my dream university, UT Austin. Due to the program's reputation as a top 10 CS program in the U.S. and being difficult to be admitted to, I grinded as hard as I could and was ecstatic to make it in!</p>
           <p>I had a very enjoyable experience while learning the fundamentals of object-oriented programming and data structures (though I had a really difficult time with the low-level material for computer architecture and operating systems). In my spare time, I searched for opportunities to create external projects, self-taught web technologies with basic tutorials, and took on an Android course from CodePath.</p>
         </SingleSlide>
         <SingleSlide>
           <SlideTitle>
-            <img src={ProMazo} alt="ProMazo" />
-            <span>First Internship</span>
+            <img src={ProMazo} alt="ProMazo" /> First Internship
           </SlideTitle>
           <p>Even after the COVID pandemic, before I gave up hope on finding work, I was contacted on LinkedIn and secured my first internship at a startup named ProMazo.</p>
           <p>The company's mission is to bring out the potential in college students who needed help identifying their interests and where they want to apply their skills, so I felt like their target audience was something I was part of as well, and I felt passionate about delivering on that initiative during my time there.</p>
@@ -59,8 +79,7 @@ const IndexPage = () => (
         </SingleSlide>
         <SingleSlide>
           <SlideTitle>
-            <img src={EdgeLearning} alt="Edge Learning" />
-            <span>Another Opportunity</span>
+            <img src={EdgeLearning} alt="Edge Learning" /> Another Opportunity
           </SlideTitle>
           <p>Two of my close friends built a React/Redux SaaS from scratch for this organization, and they referred me to continue development on it!</p>
           <p>Edge Learning is a non-profit organization in Austin that supports middle and high school students that will become first-generation college students.</p>
@@ -68,8 +87,7 @@ const IndexPage = () => (
         </SingleSlide>
         <SingleSlide>
           <SlideTitle>
-            <img src={Citi} alt="Citi" />
-            <span>Moving Forward!</span>
+            <img src={Citi} alt="Citi" /> Moving Forward!
           </SlideTitle>
           <p>Finally, I got accepted for an internship opportunity at Citi for Summer 2021!</p>
           <p>I will be a Global Consumer Technology Summer Analyst at Citi's Dallas, TX office.</p>

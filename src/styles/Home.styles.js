@@ -3,10 +3,38 @@ import { fadeInFromTop, fadeInFromLeft, fadeInFromRight } from './Keyframes'
 
 export const LogoContainer = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: center;
   animation: ${fadeInFromLeft};
   animation-duration: 800ms;
+  margin-bottom: 30px;
+`
+
+export const ButtonContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  animation: ${fadeInFromTop};
+  animation-duration: 1000ms;
+`
+
+export const DownloadResume = styled.a`
+  color: white;
+  font-weight: 500;
+  background: linear-gradient(45deg, #2196F3 30%, #21CBF3 90%);
+  box-shadow: 0 3px 5px 2px rgba(33, 203, 243, .3);
+  border: none;
+  border-radius: 5px;
+  height: 48px;
+  padding: 12px 30px;
   margin-bottom: 50px;
+  cursor: pointer;
+  transition: 600ms ease;
+  text-decoration: none;
+
+  &:hover {
+    filter: saturate(200%);
+    transition: 600ms ease;
+  }
 `
 
 export const WelcomeContainer = styled.div`
