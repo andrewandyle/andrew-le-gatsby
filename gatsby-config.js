@@ -27,6 +27,15 @@ module.exports = {
         icon: `src/images/icons/logo-short.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-catch-links`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `oop-blog`,
+        path: `${__dirname}/src/pages/life/oop-blog`,
+      },
+    },
+    `gatsby-transformer-remark`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
