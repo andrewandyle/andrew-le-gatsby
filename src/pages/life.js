@@ -17,12 +17,6 @@ const LifePage = () => (
           <p>A series of blog posts from CS371p, Object-Oriented Programming.</p>
         </SectionCard>
       </Link>
-      <Link to="/">
-        <SectionCard color="tropical" delay={4}>
-          <h3>Austin Food List</h3>
-          <p>A list of my food recommendations for people visiting Austin.</p>
-        </SectionCard>
-      </Link>
     </SectionsContainer>
   </Layout>	
 )	

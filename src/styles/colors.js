@@ -3,12 +3,14 @@ export const gradients = {
   blue: 'linear-gradient(45deg, #2196F3 30%, #21CBF3 90%)',
   red: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
   purple: 'linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%)',
-  tropical: 'linear-gradient(315deg, #f6d327 0%, #de4daa 74%)',
+  pinkYellow: 'linear-gradient(315deg, #f6d327 0%, #de4daa 74%)',
+  pmGreen: 'linear-gradient(to right, #38d4d1, #59cd89)',
 }
 
 export const shadows = {
   blue: '0 3px 5px 2px rgba(33, 203, 243, .3)',
   red: '0 3px 5px 2px rgba(255, 105, 135, .3)',
   purple: '0 3px 5px 2px rgba(207, 42, 243, .3)',
-  tropical: '0 3px 5px 2px rgba(214, 155, 203, .3)',
+  pinkYellow: '0 3px 5px 2px rgba(214, 155, 203, .3)',
+  pmGreen: '0 3px 5px 2px rgba(3, 187, 133, .3)',
 }

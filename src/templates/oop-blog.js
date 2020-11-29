@@ -13,7 +13,7 @@ export default function Template({ data }) {
 
   return (
     <Layout back="/life/oop-blog">
-      <SEO title={post.frontmatter.title}/>
+      <SEO title={`OOP Blog #${post.frontmatter.entry}`}/>
       <BlogBody>
         <ImageContainer>
           <img src={OOPAvi} alt="OOP Avi" />

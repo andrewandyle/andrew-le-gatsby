@@ -74,27 +74,76 @@ export const PicturesContainer = styled.div`
   }
 `
 
-export const SlideshowContainer = styled.div`
-  text-align: center;
-  animation: ${fadeInFromTop};
-  animation-duration: 1400ms;
-`
-
-export const SingleSlide = styled.div`
-  text-align: left;
-  height: auto;
-  padding: 40px;
-`
-
-export const SlideTitle = styled.div`
+export const TimelineContainer = styled.div`
   display: flex;
-  margin-bottom: 20px;
-  font-size: 36px;
-  font-weight: 500;
+  flex-direction: column;
   align-items: center;
 
-  & img {
-    height: 75px;
-    margin-right: 15px;
+  .vertical-timeline-element-content {
+    color: black;
+
+    & h3 {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
+    & h4 {
+      font-weight: 400;
+    }
+
+    & p {
+      font-size: 0.8rem;
+      font-weight: normal;
+    }
+  }
+
+  .vertical-timeline-element-date {
+    color: white;
+    margin: 0 10px;
+
+    @media only screen and (max-width: 1170px) {
+      color: black;
+    }
+  }
+`
+
+export const SkillsContainer = styled.div`
+  display: flex;
+`
+
+export const Skill = styled.div`
+  font-size: 0.8125rem;
+  padding: 5px 15px;
+  margin-right: 5px;
+  background: #e0e0e0;
+  border: none;
+  border-radius: 16px;
+`
+
+export const LinksContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+
+  & a {
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    cursor: pointer;
+    transition: 600ms ease;
+    text-decoration: none;
+    margin: 5px;
+
+    ${({ color }) => `
+      background: ${color && `${gradients[color]}`};
+      box-shadow: ${color && `${shadows[color]}`};
+    };`}
+
+    &:hover {
+      filter: saturate(200%);
+      transition: 600ms ease;
+    }
   }
 `

@@ -2,9 +2,9 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-// Slideshow
-import { Slide } from 'react-slideshow-image'
-import 'react-slideshow-image/dist/styles.css'
+// Timeline
+import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component'
+import 'react-vertical-timeline-component/style.min.css'
 
 // Styled Components
 import {
@@ -13,9 +13,10 @@ import {
   DownloadResume,
   WelcomeContainer,
   PicturesContainer,
-  SlideshowContainer,
-  SingleSlide,
-  SlideTitle,
+  TimelineContainer,
+  SkillsContainer,
+  Skill,
+  LinksContainer,
 } from '../styles/index.styles'
 
 // Images
@@ -24,7 +25,7 @@ import Setup from '../images/home/setup.jpg'
 import Wonderspaces from '../images/home/wonderspaces.jpg'
 
 import Logo from '../images/icons/logo.png'
-import ComputerScience from '../images/icons/utcs.png'
+import UTAustin from '../images/icons/utaustin.png'
 import ProMazo from '../images/icons/promazo.png'
 import EdgeLearning from '../images/icons/edgelearning.png'
 import Citi from '../images/icons/citi.png'
@@ -54,46 +55,65 @@ const IndexPage = () => (
       <p>I'm a senior Computer Science student at UT Austin. As a growing software engineer, my passion lies in delivering software products to help clients in need, being an effective team player, and developing my expertise to better reach those goals. Envisioning the impact my work has on my target audience is what drives me!</p>
       <p>Aside from my hours of sitting at my PC programming, gaming, and watching anime, I try to go outdoors often to relieve the isolation caused by quarantine. I love going around Austin to bike downtown, find new nature spots, and scratch restaurants off my bucket list. I'm a big fan of Persona and listen to a lot of Future Funk.</p>
     </WelcomeContainer>
-    <SlideshowContainer>
+    <TimelineContainer>
       <h1>My Journey</h1>
-      <Slide
-        autoplay={false}
-        infinite={false}
-        transitionDuration={500}
-        easing="ease"
-      >
-        <SingleSlide>
-          <SlideTitle>
-            <img src={ComputerScience} alt="UT Computer Science" /> The Starting Point
-          </SlideTitle>
-          <p>I began my Computer Science studies at my dream university, UT Austin. Due to the program's reputation as a top 10 CS program in the U.S. and being difficult to be admitted to, I grinded as hard as I could and was ecstatic to make it in!</p>
-          <p>I had a very enjoyable experience while learning the fundamentals of object-oriented programming and data structures (though I had a really difficult time with the low-level material for computer architecture and operating systems). In my spare time, I searched for opportunities to create external projects, self-taught web technologies with basic tutorials, and took on an Android course from CodePath.</p>
-        </SingleSlide>
-        <SingleSlide>
-          <SlideTitle>
-            <img src={ProMazo} alt="ProMazo" /> First Internship
-          </SlideTitle>
-          <p>Even after the COVID pandemic, before I gave up hope on finding work, I was contacted on LinkedIn and secured my first internship at a startup named ProMazo.</p>
-          <p>The company's mission is to bring out the potential in college students who needed help identifying their interests and where they want to apply their skills, so I felt like their target audience was something I was part of as well, and I felt passionate about delivering on that initiative during my time there.</p>
-          <p>I worked as a full stack developer on two apps: an internal PWA that streamlines the job search, and our 100k Mentor Challenge mobile app. I was able to grow my skills tremendously when working with React, Redux, GraphQL, and AWS. This was also my first real team experience, following a Scrum workflow and planning new features each sprint.</p>
-        </SingleSlide>
-        <SingleSlide>
-          <SlideTitle>
-            <img src={EdgeLearning} alt="Edge Learning" /> Another Opportunity
-          </SlideTitle>
-          <p>Two of my close friends built a React/Redux SaaS from scratch for this organization, and they referred me to continue development on it!</p>
-          <p>Edge Learning is a non-profit organization in Austin that supports middle and high school students that will become first-generation college students.</p>
-          <p>The app I helped develop was a platform for students to track their academic progress and college readiness. Most of my work was on the frontend, wireframing and redesigning the UI of the app. We communicated frequently with executives to establish our milestones for redesign and discuss our progress.</p>
-        </SingleSlide>
-        <SingleSlide>
-          <SlideTitle>
-            <img src={Citi} alt="Citi" /> Moving Forward!
-          </SlideTitle>
-          <p>Finally, I got accepted for an internship opportunity at Citi for Summer 2021!</p>
-          <p>I will be a Global Consumer Technology Summer Analyst at Citi's Dallas, TX office.</p>
-        </SingleSlide>
-      </Slide>
-    </SlideshowContainer>
+      <VerticalTimeline>
+        <VerticalTimelineElement
+          contentStyle={{ borderTop: 'solid 4px #bf5700' }}
+          date="Fall 2017"
+          icon={<img src={UTAustin} alt="UT Austin" />}
+        >
+          <h3>Admitted to UT Austin's Computer Science Program!</h3>
+          <h4><strong>Expected Graduation:</strong> December 2021</h4>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          contentStyle={{ borderTop: 'solid 4px #38d4d1' }}
+          date="April 2020 - Present"
+          icon={<img src={ProMazo} alt="ProMazo" width={30} />}
+          iconStyle={{ display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'linear-gradient(to right, #38d4d1, #59cd89)' }}
+        >
+          <SkillsContainer>
+            <Skill>React</Skill>
+            <Skill>Redux</Skill>
+            <Skill>GraphQL</Skill>
+            <Skill>AWS</Skill>
+          </SkillsContainer>
+          <h3>Full Stack Engineer</h3>
+          <h4>ProMazo</h4>
+          <LinksContainer color="pmGreen">
+            <a href="https://promazo.com/" target="_blank" rel="noreferrer">MAIN WEBSITE</a>
+            <a href="https://app.promazo.com/" target="_blank" rel="noreferrer">INTERNAL PWA</a>
+            <a href="http://100kmentors.org/" target="_blank" rel="noreferrer">100KM WEBSITE</a>
+            <a href="https://apps.apple.com/us/app/100k-mentor-challenge/id1528816720" target="_blank" rel="noreferrer">100KM APP</a>
+          </LinksContainer>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          contentStyle={{ borderTop: 'solid 4px #80d0e9' }}
+          date="August 2020 - Present"
+          icon={<img src={EdgeLearning} alt="Edge Learning" />}
+          iconStyle={{ display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'linear-gradient(315deg, #bdcad9 0%, #e1dada 74%)' }}
+        >
+          <SkillsContainer>
+            <Skill>React</Skill>
+            <Skill>Redux</Skill>
+          </SkillsContainer>
+          <h3>Frontend Engineer</h3>
+          <h4>Edge Learning</h4>
+          <LinksContainer color="blue">
+            <a href="https://edgelearning.org/" target="_blank" rel="noreferrer">MAIN WEBSITE</a>
+          </LinksContainer>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          contentStyle={{ borderTop: 'solid 4px #10c0f2' }}
+          date="November 2020"
+          icon={<img src={Citi} alt="Citi" width={50} />}
+          iconStyle={{ display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'linear-gradient(to top, #00529b, #10c0f2)' }}
+        >
+          <h3>Received an offer from Citi!</h3>
+          <h4><strong>Internship Position:</strong> Global Consumer Technology Summer Analyst</h4>
+        </VerticalTimelineElement>
+      </VerticalTimeline>
+    </TimelineContainer>
   </Layout>
 )
 
