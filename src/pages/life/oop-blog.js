@@ -25,7 +25,7 @@ const OOPBlogPage = ({ data }) => (
     </p>
     <BlogList>
       {data.allMarkdownRemark.edges.map((post, index) => (
-        <Link to={post.node.frontmatter.path}>
+        <Link key={post.node.id} to={post.node.frontmatter.path}>
           <BlogCard key={post.node.id} index={index}>
             <h3>{`Blog #${post.node.frontmatter.entry}`}</h3>
             <p>{post.node.frontmatter.week}</p>
