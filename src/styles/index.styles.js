@@ -125,25 +125,27 @@ export const LinksContainer = styled.div`
   flex-wrap: wrap;
 
   & a {
-    color: white;
-    font-size: 0.8rem;
-    font-weight: 500;
-    border: none;
-    border-radius: 5px;
-    padding: 8px;
-    cursor: pointer;
-    transition: 600ms ease;
-    text-decoration: none;
-    margin: 5px;
-
     ${({ color }) => `
       background: ${color && `${gradients[color]}`};
       box-shadow: ${color && `${shadows[color]}`};
     };`}
+  }
+`
 
-    &:hover {
-      filter: saturate(200%);
-      transition: 600ms ease;
-    }
+export const TimelineLink = styled.a`
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  cursor: pointer;
+  transition: 600ms ease;
+  text-decoration: none;
+  margin: 5px;
+
+  &:hover {
+    filter: saturate(200%);
+    transition: 600ms ease;
   }
 `

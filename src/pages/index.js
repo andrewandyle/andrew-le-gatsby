@@ -17,6 +17,7 @@ import {
   SkillsContainer,
   Skill,
   LinksContainer,
+  TimelineLink,
 } from '../styles/index.styles'
 
 // Images
@@ -60,7 +61,7 @@ const IndexPage = () => (
       <VerticalTimeline>
         <VerticalTimelineElement
           contentStyle={{ borderTop: 'solid 4px #bf5700' }}
-          date="Fall 2017"
+          date="Fall 2018"
           icon={<img src={UTAustin} alt="UT Austin" />}
         >
           <h3>Admitted to UT Austin's Computer Science Program!</h3>
@@ -81,10 +82,10 @@ const IndexPage = () => (
           <h3>Full Stack Engineer</h3>
           <h4>ProMazo</h4>
           <LinksContainer color="pmGreen">
-            <a href="https://promazo.com/" target="_blank" rel="noreferrer">MAIN WEBSITE</a>
-            <a href="https://app.promazo.com/" target="_blank" rel="noreferrer">INTERNAL PWA</a>
-            <a href="http://100kmentors.org/" target="_blank" rel="noreferrer">100KM WEBSITE</a>
-            <a href="https://apps.apple.com/us/app/100k-mentor-challenge/id1528816720" target="_blank" rel="noreferrer">100KM APP</a>
+            <TimelineLink href="https://promazo.com/" target="_blank" rel="noreferrer">MAIN WEBSITE</TimelineLink>
+            <TimelineLink href="https://app.promazo.com/" target="_blank" rel="noreferrer">INTERNAL PWA</TimelineLink>
+            <TimelineLink href="http://100kmentors.org/" target="_blank" rel="noreferrer">100KM WEBSITE</TimelineLink>
+            <TimelineLink href="https://apps.apple.com/us/app/100k-mentor-challenge/id1528816720" target="_blank" rel="noreferrer">100KM APP</TimelineLink>
           </LinksContainer>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -100,7 +101,7 @@ const IndexPage = () => (
           <h3>Frontend Engineer</h3>
           <h4>Edge Learning</h4>
           <LinksContainer color="blue">
-            <a href="https://edgelearning.org/" target="_blank" rel="noreferrer">MAIN WEBSITE</a>
+            <TimelineLink href="https://edgelearning.org/" target="_blank" rel="noreferrer">MAIN WEBSITE</TimelineLink>
           </LinksContainer>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -109,7 +110,7 @@ const IndexPage = () => (
           icon={<img src={Citi} alt="Citi" width={50} />}
           iconStyle={{ display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'linear-gradient(to top, #00529b, #10c0f2)' }}
         >
-          <h3>Received an offer from Citi!</h3>
+          <h3>Accepted an offer from Citi!</h3>
           <h4><strong>Internship Position:</strong> Global Consumer Technology Summer Analyst</h4>
         </VerticalTimelineElement>
       </VerticalTimeline>
