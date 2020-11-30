@@ -53,8 +53,10 @@ const IndexPage = () => (
         <img id="right" src={Wonderspaces} alt="Wonderspaces" />
       </PicturesContainer>
       <h1>Welcome!</h1>
-      <p>I'm a senior Computer Science student at UT Austin. As a growing software engineer, my passion lies in delivering software products to help clients in need, being an effective team player, and developing my expertise to better reach those goals. Envisioning the impact my work has on my target audience is what drives me!</p>
-      <p>Aside from my hours of sitting at my PC programming, gaming, and watching anime, I try to go outdoors often to relieve the isolation caused by quarantine. I love going around Austin to bike downtown, find new nature spots, and scratch restaurants off my bucket list. I'm a big fan of Persona and listen to a lot of Future Funk.</p>
+      <p>I'm a senior Computer Science student at UT Austin. As a growing software engineer,
+        my passion lies in delivering software products to help clients in need, being an
+        effective team player, and developing my expertise to better reach those goals.
+        Envisioning the impact my work has on my target audience is what drives me!</p>
     </WelcomeContainer>
     <TimelineContainer>
       <h1>My Journey</h1>

@@ -72,13 +72,13 @@ export const SingleSlide = styled.div`
     align-items: center;
     justify-content: space-evenly;
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 875px) {
       flex-direction: column;
       flex-wrap: wrap;
     }
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 875px) {
     height: 100%;
   }
 `

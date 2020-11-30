@@ -64,9 +64,9 @@ const ExperiencePage = () => (
         <SectionCard color="pmGreen" delay={3}>
           <div>
             <img src={ProMazo} alt="ProMazo" width={20} />
-            <h3>ProMazo Timeline</h3>
+            <h3>ProMazo Overview</h3>
           </div>
-          <p>A timeline of my experience and contributions to ProMazo.</p>
+          <p>An overview of my experience and contributions to ProMazo.</p>
         </SectionCard>
       </Link>
     </SectionsContainer>
