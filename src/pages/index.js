@@ -70,7 +70,7 @@ const IndexPage = () => (
         <VerticalTimelineElement
           contentStyle={{ borderTop: 'solid 4px #38d4d1' }}
           date="April 2020 - Present"
-          icon={<img src={ProMazo} alt="ProMazo" width={30} />}
+          icon={<img id="promazo" src={ProMazo} alt="ProMazo" width={30} />}
           iconStyle={{ display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'linear-gradient(to right, #38d4d1, #59cd89)' }}
         >
           <SkillsContainer>

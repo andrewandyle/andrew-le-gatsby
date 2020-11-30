@@ -4,6 +4,7 @@ import { fadeInFromTop } from './keyframes'
 
 export const SkillsContainer = styled.div`
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   margin-bottom: 50px;
 `
@@ -13,6 +14,7 @@ export const SingleSkill = styled.div`
   flex-direction: column;
   text-align: center;
   font-weight: 500;
+  margin: 0 5px;
   animation: ${fadeInFromTop};
   ${({ delay }) => `animation-duration: ${delay && `${delay * 200}ms`};};`}
 

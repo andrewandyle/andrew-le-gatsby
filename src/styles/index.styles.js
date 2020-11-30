@@ -55,6 +55,11 @@ export const PicturesContainer = styled.div`
   & img {
     margin-top: 50px;
     height: 300px;
+
+    @media only screen and (max-width: 768px) {
+      margin-top: 0;
+      width: auto;
+    }
   }
 
   #left {
@@ -66,6 +71,10 @@ export const PicturesContainer = styled.div`
     margin-top: 0px;
     animation: ${fadeInFromTop};
     animation-duration: 1200ms;
+
+    @media only screen and (max-width: 768px) {
+      display: none;
+    }
   }
 
   #right {
@@ -105,16 +114,23 @@ export const TimelineContainer = styled.div`
       color: black;
     }
   }
+
+  #promazo {
+    @media only screen and (max-width: 1170px) {
+      width: 20px;
+    }
+  }
 `
 
 export const SkillsContainer = styled.div`
   display: flex;
+  flex-wrap: wrap;
 `
 
 export const Skill = styled.div`
   font-size: 0.8125rem;
   padding: 5px 15px;
-  margin-right: 5px;
+  margin: 2.5px;
   background: #e0e0e0;
   border: none;
   border-radius: 16px;
