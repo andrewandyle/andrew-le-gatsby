@@ -12,7 +12,7 @@ export const SkillsContainer = styled.div`
 export const SingleSkill = styled.div`
   display: flex;
   flex-direction: column;
-  text-align: center;
+  align-items: center;
   font-weight: 500;
   margin: 0 5px;
   animation: ${fadeInFromTop};
@@ -21,6 +21,11 @@ export const SingleSkill = styled.div`
   & img {
     height: 50px;
     margin-bottom: 5px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    width: 20%;
+    margin: 0;
   }
 `
 

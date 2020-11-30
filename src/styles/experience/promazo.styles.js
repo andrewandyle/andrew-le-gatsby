@@ -44,13 +44,13 @@ export const PictureContent = styled.div`
     & img {
       margin-top: 10px;
     }
-
-    @media only screen and (max-width: 768px) {
-      margin-top: 20px;
-    }
   }
 
   @media only screen and (max-width: 768px) {
     width: 100%;
+
+    & img {
+      margin-top: 20px;
+    }
   }
 `

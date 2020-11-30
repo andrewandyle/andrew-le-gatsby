@@ -33,7 +33,7 @@ import Citi from '../images/icons/citi.png'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Andrew Le" />
+    <SEO title="Home" />
     <LogoContainer>
       <img src={Logo} width={800} alt="Logo" />
     </LogoContainer>
@@ -109,7 +109,7 @@ const IndexPage = () => (
         <VerticalTimelineElement
           contentStyle={{ borderTop: 'solid 4px #10c0f2' }}
           date="November 2020"
-          icon={<img src={Citi} alt="Citi" width={50} />}
+          icon={<img id="citi" src={Citi} alt="Citi" width={50} />}
           iconStyle={{ display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'linear-gradient(to top, #00529b, #10c0f2)' }}
         >
           <h3>Accepted an offer from Citi!</h3>

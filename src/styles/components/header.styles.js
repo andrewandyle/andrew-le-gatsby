@@ -12,10 +12,6 @@ export const Wrapper = styled.header`
   padding: 0.8em 0 0.8em 0;
   justify-content: space-evenly;
 
-  @media only screen and (max-width: 768px) {
-    flex-direction: column;
-  }
-
   & a {
     color: white;
     text-decoration: none;
@@ -43,5 +39,9 @@ export const Wrapper = styled.header`
       align-self: flex-end;
       margin: 10px 50px 10px 0;
     }
+  }
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
   }
 `

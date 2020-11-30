@@ -55,11 +55,6 @@ export const PicturesContainer = styled.div`
   & img {
     margin-top: 50px;
     height: 300px;
-
-    @media only screen and (max-width: 768px) {
-      margin-top: 0;
-      width: auto;
-    }
   }
 
   #left {
@@ -71,15 +66,24 @@ export const PicturesContainer = styled.div`
     margin-top: 0px;
     animation: ${fadeInFromTop};
     animation-duration: 1200ms;
-
-    @media only screen and (max-width: 768px) {
-      display: none;
-    }
   }
 
   #right {
     animation: ${fadeInFromRight};
     animation-duration: 2400ms;
+  }
+
+  @media only screen and (max-width: 768px) {
+    flex-wrap: wrap;
+
+    & img {
+      margin-top: 0;
+      width: auto;
+    }
+
+    #middle {
+      display: none;
+    }
   }
 `
 
@@ -109,15 +113,19 @@ export const TimelineContainer = styled.div`
   .vertical-timeline-element-date {
     color: white;
     margin: 0 10px;
-
-    @media only screen and (max-width: 1170px) {
-      color: black;
-    }
   }
 
-  #promazo {
-    @media only screen and (max-width: 1170px) {
+  @media only screen and (max-width: 1170px) {
+    .vertical-timeline-element-date {
+      color: black;
+    }
+    
+    #promazo {
       width: 20px;
+    }
+
+    #citi {
+      width: 30px;
     }
   }
 `
