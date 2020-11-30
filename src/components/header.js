@@ -8,29 +8,33 @@ import GitHub from '../images/icons/github.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
-import { Wrapper } from '../styles/components/header.styles'
+import { Wrapper, MobileWrapper } from '../styles/components/header.styles'
 
 const Header = () => {
   const [mobileIconsVisible, setMobileIconsVisible] = useState(false)
 
   return (
     <Wrapper mobileIconsVisible={mobileIconsVisible}>
-      <FontAwesomeIcon id="bars" icon={faBars} onClick={() => setMobileIconsVisible(!mobileIconsVisible)} />
-      <Link to="/">
-        <img src={Logo} height={70} alt="Andrew Le" />
-      </Link>
+      <MobileWrapper>
+        <Link id="logo" to="/">
+          <img src={Logo} height={70} alt="Andrew Le" />
+        </Link>
+        <FontAwesomeIcon id="bars" icon={faBars} onClick={() => setMobileIconsVisible(!mobileIconsVisible)} />
+      </MobileWrapper>
       <Link to="/life">
         Life
       </Link>
       <Link to="/experience">
         Experience
       </Link>
-      <a href="https://www.linkedin.com/in/andrewandyle/" target="_blank" rel="noreferrer">
-        <img src={LinkedIn} height={50} alt="LinkedIn" />
-      </a>
-      <a href="https://github.com/andrewandyle" target="_blank" rel="noreferrer">
-        <img src={GitHub} height={50} alt="GitHub" />
-      </a>
+      <div>
+        <a href="https://www.linkedin.com/in/andrewandyle/" target="_blank" rel="noreferrer">
+          <img src={LinkedIn} height={50} alt="LinkedIn" />
+        </a>
+        <a href="https://github.com/andrewandyle" target="_blank" rel="noreferrer">
+          <img src={GitHub} height={50} alt="GitHub" />
+        </a>
+      </div>
     </Wrapper>
   )
 }

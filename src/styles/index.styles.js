@@ -91,6 +91,7 @@ export const TimelineContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow-x: hidden;
 
   .vertical-timeline-element-content {
     color: black;
