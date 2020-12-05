@@ -13,12 +13,22 @@ export default function Template({ data }) {
 
   return (
     <Layout back="/life/oop-blog">
-      <SEO title={`OOP Blog #${post.frontmatter.entry}`}/>
+      <SEO 
+        title={post.frontmatter.entry === 14
+            ? 'Final Entry'
+            : `OOP Blog #${post.frontmatter.entry}`
+        }
+      />
       <BlogBody>
         <ImageContainer>
           <img src={OOPAvi} alt="OOP Avi" />
         </ImageContainer>
-        <h1>{`Blog #${post.frontmatter.entry} (Week of ${post.frontmatter.week})`}</h1>
+        <h1>
+          {post.frontmatter.entry === 14
+            ? 'Final Entry'
+            : `Blog #${post.frontmatter.entry} (Week of ${post.frontmatter.week})`
+          }
+        </h1>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </BlogBody>
     </Layout>
