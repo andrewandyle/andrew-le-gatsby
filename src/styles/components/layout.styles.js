@@ -1,6 +1,5 @@
 import styled, { createGlobalStyle } from 'styled-components'
 import { gradients, shadows } from '../colors'
-import 'typeface-roboto'
 
 export const BackContainer = styled.div`
   margin-bottom: 30px;
