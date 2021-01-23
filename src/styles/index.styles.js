@@ -37,6 +37,10 @@ export const ButtonContainer = styled.div`
   justify-content: center;
   animation: ${fadeInFromTop};
   animation-duration: 1000ms;
+
+  & img {
+    margin-left: 20px;
+  }
 `
 
 export const DownloadResume = styled.a`

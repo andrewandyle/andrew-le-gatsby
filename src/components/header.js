@@ -2,8 +2,6 @@ import { Link } from "gatsby"
 import React, { useState } from "react"
 
 import Logo from '../images/icons/logo.png'
-import LinkedIn from '../images/icons/linkedin.png'
-import GitHub from '../images/icons/github.jpg'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
@@ -27,14 +25,6 @@ const Header = () => {
       <Link to="/experience">
         Experience
       </Link>
-      <div>
-        <a href="https://www.linkedin.com/in/andrewandyle/" target="_blank" rel="noreferrer">
-          <img src={LinkedIn} height={50} alt="LinkedIn" />
-        </a>
-        <a href="https://github.com/andrewandyle" target="_blank" rel="noreferrer">
-          <img src={GitHub} height={50} alt="GitHub" />
-        </a>
-      </div>
     </Wrapper>
   )
 }

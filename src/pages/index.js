@@ -12,6 +12,9 @@ import {
 // Images
 import Avatar from '../images/icons/avatar.png'
 import Logo from '../images/icons/logo.png'
+import Email from '../images/icons/email.png'
+import LinkedIn from '../images/icons/linkedin.png'
+import GitHub from '../images/icons/github.jpg'
 
 const IndexPage = () => (
   <Layout>
@@ -28,6 +31,15 @@ const IndexPage = () => (
       >
         DOWNLOAD RESUME
       </DownloadResume>
+      <a href="mailto:andrewandyle@gmail.com" target="_blank" rel="noreferrer">
+        <img src={Email} height={50} alt="Email" />
+      </a>
+      <a href="https://www.linkedin.com/in/andrewandyle/" target="_blank" rel="noreferrer">
+        <img src={LinkedIn} height={50} alt="LinkedIn" />
+      </a>
+      <a href="https://github.com/andrewandyle" target="_blank" rel="noreferrer">
+        <img src={GitHub} height={50} alt="GitHub" />
+      </a>
     </ButtonContainer>
   </Layout>
 )
