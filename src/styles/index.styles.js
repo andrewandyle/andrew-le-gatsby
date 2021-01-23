@@ -41,6 +41,11 @@ export const ButtonContainer = styled.div`
   & img {
     margin-left: 20px;
   }
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `
 
 export const DownloadResume = styled.a`
