@@ -81,7 +81,7 @@ const LifePage = () => (
     </SlideshowContainer>
     <h1>Collections</h1>
     <SectionsContainer>
-      <Link to="/life/oop-blog">
+      <Link to="/life/oop">
         <SectionCard color="purple" delay={3}>
           <h3>OOP Blog Posts</h3>
           <p>A series of blog posts from CS371p, Object-Oriented Programming.</p>

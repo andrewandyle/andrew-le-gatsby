@@ -3,7 +3,7 @@ const path = require('path')
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
 
-  const postTemplate = path.resolve('src/templates/oop-blog.js')
+  const postTemplate = path.resolve('src/templates/oop.js')
 
   return graphql(`
     query BlogIndexQuery {

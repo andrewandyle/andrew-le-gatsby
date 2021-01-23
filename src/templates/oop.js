@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from "../components/layout"	
 import SEO from "../components/seo"
 
-import { BlogBody, ImageContainer } from '../styles/life/oop-blog.styles'
+import { BlogBody, ImageContainer } from '../styles/life/oop.styles'
 
 import OOPAvi from '../images/life/oopavi.jpg'
 
@@ -12,7 +12,7 @@ export default function Template({ data }) {
   const post = data.markdownRemark
 
   return (
-    <Layout back="/life/oop-blog">
+    <Layout back="/life/oop">
       <SEO 
         title={post.frontmatter.entry === 14
             ? 'Final Entry'

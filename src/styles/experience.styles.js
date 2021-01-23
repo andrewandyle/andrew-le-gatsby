@@ -75,3 +75,91 @@ export const SectionCard = styled.div`
     }
   }
 `
+
+export const TimelineContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+
+  .vertical-timeline-element-content {
+    color: black;
+
+    & h3 {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
+    & h4 {
+      font-weight: 400;
+    }
+
+    & p {
+      font-size: 0.8rem;
+      font-weight: normal;
+    }
+  }
+
+  .vertical-timeline-element-date {
+    color: white;
+    margin: 0 10px;
+  }
+
+  @media only screen and (max-width: 1170px) {
+    .vertical-timeline-element-date {
+      color: black;
+    }
+    
+    #promazo {
+      width: 20px;
+    }
+
+    #citi {
+      width: 30px;
+    }
+  }
+`
+
+export const SkillBubbles = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+`
+
+export const Skill = styled.div`
+  font-size: 0.8125rem;
+  padding: 5px 15px;
+  margin: 2.5px;
+  background: #e0e0e0;
+  border: none;
+  border-radius: 16px;
+`
+
+export const LinksContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+
+  & a {
+    ${({ color }) => `
+      background: ${color && `${gradients[color]}`};
+      box-shadow: ${color && `${shadows[color]}`};
+    };`}
+  }
+`
+
+export const TimelineLink = styled.a`
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  cursor: pointer;
+  transition: 600ms ease;
+  text-decoration: none;
+  margin: 5px;
+
+  &:hover {
+    filter: saturate(200%);
+    transition: 600ms ease;
+  }
+`

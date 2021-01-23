@@ -4,7 +4,7 @@ import { graphql, Link } from 'gatsby'
 import Layout from "../../components/layout"	
 import SEO from "../../components/seo"
 
-import { BlogList, BlogCard } from '../../styles/life/oop-blog.styles'
+import { BlogList, BlogCard } from '../../styles/life/oop.styles'
 
 const OOPBlogPage = ({ data }) => (
   <Layout back="/life">	

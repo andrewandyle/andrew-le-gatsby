@@ -1,5 +1,5 @@
 ---
-path: "/life/oop-blog/blog-8"
+path: "/life/oop/8"
 entry: 8
 week: "10/12 - 10/18"
 ---
