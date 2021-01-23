@@ -1,10 +1,10 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
 
-import Layout from "../../components/layout"	
+import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 
-import { BlogList, BlogCard } from '../../styles/life/oop.styles'
+import { BlogList, BlogCard } from '../../styles/life/blog.styles'
 
 const OOPBlogPage = ({ data }) => (
   <Layout back="/life">	
@@ -13,7 +13,7 @@ const OOPBlogPage = ({ data }) => (
     <h3>This is a series of blog posts for Object-Oriented Programming.</h3>
     <p>Object-Oriented Programming in UTCS (CS371p) is taught by Professor Glenn Downing.
       It teaches object-oriented features and principles in C++, a lot of which are compared and
-      contrasted to Java. This class consisted of pair-programming projects, HackerRank exams
+      contrasted to Java. This class consists of pair-programming projects, HackerRank exams
       that have a collaborative part, papers that teach OOP principles which we annotate, and
       blog entries that we post such as below.
     </p>
@@ -25,24 +25,26 @@ const OOPBlogPage = ({ data }) => (
     </p>
     <BlogList>
       {data.allMarkdownRemark.edges.map((post, index) => (
-        <Link key={post.node.id} to={post.node.frontmatter.path}>
-          <BlogCard key={post.node.id} index={index}>
-            <h3>
-              {post.node.frontmatter.entry === 14 
-                ? 'Final Entry'
-                : `Blog #${post.node.frontmatter.entry}`
-              }
-            </h3>
-            <p>{post.node.frontmatter.week}</p>
-          </BlogCard>
-        </Link>
+        post.node.frontmatter.class === "oop" && (
+          <Link key={post.node.id} to={post.node.frontmatter.path}>
+            <BlogCard key={post.node.id} index={index} color="purple">
+              <h3>
+                {post.node.frontmatter.entry === 14 
+                  ? 'Final Entry'
+                  : `Blog #${post.node.frontmatter.entry}`
+                }
+              </h3>
+              <p>{post.node.frontmatter.week}</p>
+            </BlogCard>
+          </Link>
+        )
       ))}
     </BlogList>	
   </Layout>	
 )
 
 export const blogQuery = graphql`
-  query BlogIndexQuery {
+  query OopBlogIndexQuery {
     allMarkdownRemark(sort: {order: DESC, fields: frontmatter___entry}) {
       edges {
         node {
@@ -51,6 +53,7 @@ export const blogQuery = graphql`
             path
             entry
             week
+            class
           }
         }
       }

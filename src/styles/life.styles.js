@@ -18,6 +18,7 @@ export const SectionCard = styled.div`
   };`}
 
   width: 280px;
+  min-height: 180px;
   color: white;
   border: none;
   border-radius: 5px;

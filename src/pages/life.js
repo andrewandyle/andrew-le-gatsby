@@ -81,6 +81,12 @@ const LifePage = () => (
     </SlideshowContainer>
     <h1>Collections</h1>
     <SectionsContainer>
+      <Link to="/life/swe">
+        <SectionCard color="darkBlue" delay={3}>
+          <h3>SWE Blog Posts</h3>
+          <p>A series of blog posts from CS373, Software Engineering.</p>
+        </SectionCard>
+      </Link>
       <Link to="/life/oop">
         <SectionCard color="purple" delay={3}>
           <h3>OOP Blog Posts</h3>
@@ -89,6 +95,6 @@ const LifePage = () => (
       </Link>
     </SectionsContainer>
   </Layout>	
-)	
+)
 
 export default LifePage
