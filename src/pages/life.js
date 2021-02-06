@@ -1,31 +1,100 @@
-import React from "react"	
+import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"	
+import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 // Slideshow
-import { Slide } from 'react-slideshow-image'
-import 'react-slideshow-image/dist/styles.css'
+import { Slide } from "react-slideshow-image"
+import "react-slideshow-image/dist/styles.css"
 
+import Avatar from "../images/icons/avatar.png"
+import Persona from "../images/life/persona.jpg"
 // Slide Images
-import CSFriends1 from '../images/life/slideshow/csfriends1.jpg'
-import CSFriends2 from '../images/life/slideshow/csfriends2.jpg'
-import HSFriends1 from '../images/life/slideshow/hsfriends1.jpg'
-import HSFriends2 from '../images/life/slideshow/hsfriends2.jpg'
-import Outdoors1 from '../images/life/slideshow/outdoors1.jpg'
-import Outdoors2 from '../images/life/slideshow/outdoors2.jpg'
-import Sushi1 from '../images/life/slideshow/sushi1.jpg'
-import Sushi2 from '../images/life/slideshow/sushi2.jpg'
-import Persona1 from '../images/life/slideshow/persona1.jpg'
-import Persona2 from '../images/life/slideshow/persona2.jpg'
-import Piano from '../images/life/slideshow/piano.jpg'
+import Coding from "../images/life/slideshow/coding.jpg"
+import Downtown1 from "../images/life/slideshow/downtown1.jpg"
+import Downtown2 from "../images/life/slideshow/downtown2.jpg"
+import Outdoors1 from "../images/life/slideshow/outdoors1.jpg"
+import Outdoors2 from "../images/life/slideshow/outdoors2.jpg"
+import Sushi1 from "../images/life/slideshow/sushi1.jpg"
+import Sushi2 from "../images/life/slideshow/sushi2.jpg"
+import Piano from "../images/life/slideshow/piano.jpg"
 
-import { SectionsContainer, SectionCard, SlideshowContainer, SingleSlide } from '../styles/life.styles'
+import {
+  AboutMe,
+  SlideshowContainer,
+  SingleSlide,
+  Favorites,
+  SectionsContainer,
+  SectionCard,
+} from "../styles/life.styles"
 
 const LifePage = () => (
-  <Layout back="/">	
+  <Layout back="/">
     <SEO title="Life" />
+    <h1>About Me</h1>
+    <AboutMe>
+      <img id="avatar" src={Avatar} alt="Avatar" />
+      <div>
+        <p>
+          Hello! I'm Andrew Le, a Computer Science major at The University of
+          Texas at Austin.
+        </p>
+        <p>
+          I'm passionate about collaborating with teams to develop meaningful
+          software products and features to provide to clients. I enjoy hands-on
+          learning for new skills, and I strive to continuously improve as a
+          developer and team player.
+        </p>
+        <p>
+          Aside from that, I'm as much of an outdoor person as I am an indoor
+          person. Some days I go out to bike, find new views or restaurants, and
+          work out. Other days I look up Reddit memes, play RPGs, or binge watch
+          animes.
+        </p>
+      </div>
+    </AboutMe>
+    <h1>Favorites</h1>
+    <Favorites>
+      <div>
+        <b>Games:</b>
+        <ul>
+          <li>Persona 3/4/5</li>
+          <li>Super Smash Bros.</li>
+          <li>Overwatch</li>
+          <li>Minecraft</li>
+          <li>Terraria</li>
+          <li>Final Fantasy 7/15</li>
+          <li>
+            <u>Currently playing:</u>
+            <br /> Yakuza: Like a Dragon
+          </li>
+        </ul>
+      </div>
+      <div>
+        <b>Animes:</b>
+        <ul>
+          <li>Dragon Ball Z/Super</li>
+          <li>JoJo's Bizzare Adventure</li>
+          <li>Death Note</li>
+          <li>Kaguya-sama: Love is War</li>
+          <li>
+            <u>Currently watching:</u>
+            <br />
+            Parasyte: The Maxim
+          </li>
+        </ul>
+        <b>TV Shows:</b>
+        <ul>
+          <li>The Office</li>
+          <li>Game of Thrones</li>
+        </ul>
+      </div>
+      <div style={{ marginRight: 0 }}>
+        <img src={Persona} alt="Persona" width={275} />
+      </div>
+      
+    </Favorites>
     <SlideshowContainer>
       <Slide
         autoplay={false}
@@ -34,45 +103,32 @@ const LifePage = () => (
         easing="ease"
       >
         <SingleSlide id="intro">
-          <h1>A little bit about my personal life...</h1>
+          <h1>Other than coding, I like to use my time to...</h1>
+          <img src={Coding} alt="Coding" />
         </SingleSlide>
         <SingleSlide>
-          <h3>I mostly work with and hang out with my CS friends!</h3>
+          <h1>Explore downtown Austin!</h1>
           <div>
-            <img src={CSFriends1} alt="KBBQ w/ Friends" />
-            <img src={CSFriends2} alt="Texas Snow w/ Friends" />
+            <img src={Downtown1} alt="Biking" />
+            <img src={Downtown2} alt="Kayaking" />
           </div>
         </SingleSlide>
         <SingleSlide>
-          <h3>I'm close to two of my best friends from high school, back at San Antonio!</h3>
+          <h1>Find new scenic views in Austin!</h1>
           <div>
-            <img src={HSFriends1} alt="HS Prom" />
-            <img src={HSFriends2} alt="La Cantera" />
+            <img src={Outdoors1} alt="Sunrise" />
+            <img src={Outdoors2} alt="Sunset" />
           </div>
         </SingleSlide>
         <SingleSlide>
-          <h3>I like to find outdoor activities around downtown Austin!</h3>
-          <div>
-            <img src={Outdoors1} alt="Biking" />
-            <img src={Outdoors2} alt="Kayaking" />
-          </div>
-        </SingleSlide>
-        <SingleSlide>
-          <h3>My favorite food by far is sushi and poke, I like making it myself!</h3>
+          <h1>Make sushi at home!</h1>
           <div>
             <img src={Sushi1} alt="Poke" />
             <img src={Sushi2} alt="Sushi" />
           </div>
         </SingleSlide>
         <SingleSlide>
-          <h3>My favorite game franchise is Persona, and I rep it the most!</h3>
-          <div>
-            <img src={Persona1} alt="Joker Mask" />
-            <img src={Persona2} alt="Series Posters" />
-          </div>
-        </SingleSlide>
-        <SingleSlide>
-          <h3>My favorite hobby is playing piano, I've learned for over 10 years!</h3>
+          <h1>Play the piano!</h1>
           <div>
             <img src={Piano} alt="Piano" />
           </div>
@@ -90,11 +146,13 @@ const LifePage = () => (
       <Link to="/life/oop">
         <SectionCard color="purple" delay={3}>
           <h3>OOP Blog Posts</h3>
-          <p>A series of blog posts from CS371p, Object-Oriented Programming.</p>
+          <p>
+            A series of blog posts from CS371p, Object-Oriented Programming.
+          </p>
         </SectionCard>
       </Link>
     </SectionsContainer>
-  </Layout>	
+  </Layout>
 )
 
 export default LifePage

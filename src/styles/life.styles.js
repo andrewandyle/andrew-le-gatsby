@@ -1,6 +1,65 @@
 import styled from 'styled-components'
 import { gradients, shadows } from './colors'
-import { fadeInFromTop } from './keyframes'
+import { fadeInFromTop, fadeInFromLeft, fadeInFromRight } from './keyframes'
+
+export const AboutMe = styled.div`
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  margin-bottom: 50px;
+
+  & img {
+    animation: ${fadeInFromLeft};
+    animation-duration: 1000ms;
+    width: 400px;
+    margin-right: 50px;
+  }
+
+  & div {
+    animation: ${fadeInFromRight};
+    animation-duration: 1000ms;
+  }
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+    font-size: 18px;
+    margin-bottom: 25px;
+
+    & img {
+      width: 300px;
+      margin-right: 0;
+      margin-bottom: 50px;
+    }
+  }
+`
+
+export const Favorites = styled.div`
+  margin-bottom: 50px;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  animation: ${fadeInFromTop};
+  animation-duration: 1000ms;
+  flex-wrap: wrap;
+
+  & div {
+    margin-right: 25px;
+  }
+
+  & ul {
+    margin: 20px 1.45rem 20px;
+  }
+
+  & li {
+    margin-bottom: 0.5rem;
+  }
+
+  @media only screen and (max-width: 768px) {
+    font-size: 18px;
+    margin-bottom: 25px;
+    justify-content: flex-start;
+  }
+`
 
 export const SectionsContainer = styled.div`
   display: flex;
@@ -11,34 +70,10 @@ export const SectionsContainer = styled.div`
   }
 `
 
-export const SectionCard = styled.div`
-  ${({ color }) => `
-    background: ${color && `${gradients[color]}`};
-    box-shadow: ${color && `${shadows[color]}`};
-  };`}
-
-  width: 280px;
-  min-height: 180px;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  margin: 10px;
-  padding: 10px;
-  animation: ${fadeInFromTop};
-  transition: 300ms ease;
-  ${({ delay }) => `animation-duration: ${delay && `${delay * 200}ms`};};`}
-
-  &:hover {
-    filter: saturate(200%);
-    transform: translateY(-10px);
-    transition: transform 300ms ease, filter 300ms ease;
-  }
-`
-
 export const SlideshowContainer = styled.div`
   text-align: center;
   animation: ${fadeInFromTop};
-  animation-duration: 600ms;
+  animation-duration: 1000ms;
   margin-bottom: 50px;
   
   & h1, h3 {
@@ -81,5 +116,29 @@ export const SingleSlide = styled.div`
       flex-direction: column;
       flex-wrap: wrap;
     }
+  }
+`
+
+export const SectionCard = styled.div`
+  ${({ color }) => `
+    background: ${color && `${gradients[color]}`};
+    box-shadow: ${color && `${shadows[color]}`};
+  };`}
+
+  width: 280px;
+  min-height: 180px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  animation: ${fadeInFromTop};
+  transition: 300ms ease;
+  ${({ delay }) => `animation-duration: ${delay && `${delay * 200}ms`};};`}
+
+  &:hover {
+    filter: saturate(200%);
+    transform: translateY(-10px);
+    transition: transform 300ms ease, filter 300ms ease;
   }
 `

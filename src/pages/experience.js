@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 
 import Layout from "../components/layout"	
 import SEO from "../components/seo"
@@ -11,8 +11,8 @@ import 'react-vertical-timeline-component/style.min.css'
 import {
   SkillsContainer,
   SingleSkill,
-  SectionsContainer,
-  SectionCard,
+  // SectionsContainer,
+  // SectionCard,
   TimelineContainer,
   SkillBubbles,
   Skill,
@@ -135,7 +135,7 @@ const ExperiencePage = () => (
       </VerticalTimeline>
     </TimelineContainer>
 
-    <h1>Collections</h1>
+    {/* <h1>Collections</h1>
     <SectionsContainer>
       <Link to="/experience/promazo">
         <SectionCard color="pmGreen" delay={3}>
@@ -146,7 +146,7 @@ const ExperiencePage = () => (
           <p>An overview of my experience and contributions to ProMazo.</p>
         </SectionCard>
       </Link>
-    </SectionsContainer>
+    </SectionsContainer> */}
   </Layout>	
 )	
 
