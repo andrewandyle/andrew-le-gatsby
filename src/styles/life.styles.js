@@ -44,6 +44,7 @@ export const Favorites = styled.div`
 
   & div {
     margin-right: 25px;
+    width: 260px;
   }
 
   & ul {
@@ -57,7 +58,7 @@ export const Favorites = styled.div`
   @media only screen and (max-width: 768px) {
     font-size: 18px;
     margin-bottom: 25px;
-    justify-content: flex-start;
+    align-items: center;
   }
 `
 

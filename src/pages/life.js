@@ -64,25 +64,15 @@ const LifePage = () => (
           <li>Overwatch</li>
           <li>Minecraft</li>
           <li>Terraria</li>
-          <li>Final Fantasy 7/15</li>
-          <li>
-            <u>Currently playing:</u>
-            <br /> Yakuza: Like a Dragon
-          </li>
         </ul>
       </div>
       <div>
         <b>Animes:</b>
         <ul>
           <li>Dragon Ball Z/Super</li>
-          <li>JoJo's Bizzare Adventure</li>
+          <li>JoJo's Bizarre Adventure</li>
           <li>Death Note</li>
           <li>Kaguya-sama: Love is War</li>
-          <li>
-            <u>Currently watching:</u>
-            <br />
-            Parasyte: The Maxim
-          </li>
         </ul>
         <b>TV Shows:</b>
         <ul>
@@ -91,7 +81,7 @@ const LifePage = () => (
         </ul>
       </div>
       <div style={{ marginRight: 0 }}>
-        <img src={Persona} alt="Persona" width={275} />
+        <img src={Persona} alt="Persona" />
       </div>
       
     </Favorites>
