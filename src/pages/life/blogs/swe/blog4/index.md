@@ -25,7 +25,7 @@ class: "swe"
 
 1. **What was your experience of types?**
 
-    This week was a good review of Python. I actually never knew about the immutable variants of the Python structures before these lectures: tuple and frozenset.
+    I don't use Python nearly as much as Java and JavaScript, so this week's lectures actually revealed a lot of things I didn't know about Python. I learned things such as how ints work under the hood (changing from the value to a reference when greater than 256), booleans always being a reference to two singleton objects, and the different cases of `is` (identity comparison) with mutable and immutable data structures, just to name a few. I thought this week would just be a refresher on Python, but I took away a lot more than expected.
 
 1. **What made you happy this week?**
 
