@@ -11,7 +11,7 @@ class: "swe"
 
 1. **What's in your way?**
 
-    There are many things my team has to improve on. Unfortunately, I was the most familiar with React and AWS when starting off with the team, and there's a lot of things in this phase that none of my team and I didn't know or understand. It's become a huge grind for knowledge, and we keep running into bug after bug and going to office/lab hours. I also don't know what to do about the lack of communication sometimes, both on Teams and during Zoom meetings, but that's likely caused by the lack of knowledge. I will do whatever it takes next phase to increase productivity and communcation, and for the entire team to be on the same page.
+    There are many things my team has to improve on. Unfortunately, I was the most familiar with React and AWS when starting off with the team, and there's a lot of things in this phase that none of my team and I knew or understood. It's become a huge grind for knowledge, and we kept running into bug after bug and going to office/lab hours. I also don't know what to do about the lack of communication sometimes, both on Teams and during full group Zoom meetings, but that's likely caused by the lack of knowledge. I will do whatever it takes next phase to increase productivity and communication, and for the entire team to be on the same page.
 
 1. **What will you do next week?**
 
