@@ -66,6 +66,7 @@ const LifePage = () => (
           <li>Parasyte -the maxim-</li>
           <li>KonoSuba</li>
           <li>One Punch Man</li>
+          <li>Mob Psycho 100</li>
         </ul>
       </div>
       <div>
