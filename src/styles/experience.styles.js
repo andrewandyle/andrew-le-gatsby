@@ -2,19 +2,12 @@ import styled from 'styled-components'
 import { gradients, shadows } from './colors'
 import { fadeInFromTop } from './keyframes'
 
-export const SkillsContainer = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin-bottom: 50px;
-`
-
 export const SingleSkill = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   font-weight: 500;
-  margin: 0 5px;
+  margin: 0 20px;
   animation: ${fadeInFromTop};
   ${({ delay }) => `animation-duration: ${delay && `${delay * 200}ms`};};`}
 

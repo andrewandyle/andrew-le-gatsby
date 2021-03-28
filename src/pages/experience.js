@@ -4,15 +4,15 @@ import React from "react"
 import Layout from "../components/layout"	
 import SEO from "../components/seo"
 
+// Marquee
+import Marquee from 'react-fast-marquee'
+
 // Timeline
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component'
 import 'react-vertical-timeline-component/style.min.css'
 
 import {
-  SkillsContainer,
   SingleSkill,
-  // SectionsContainer,
-  // SectionCard,
   TimelineContainer,
   SkillBubbles,
   Skill,
@@ -42,7 +42,7 @@ const ExperiencePage = () => (
   <Layout back="/">	
     <SEO title="Experience" />
     <h1>Skills</h1>
-    <SkillsContainer>
+    <Marquee gradientColor={[18, 18, 18]} speed={50}>
       <SingleSkill delay={1}>
         <img src={Java} alt="Java" /> Java
       </SingleSkill>
@@ -73,9 +73,9 @@ const ExperiencePage = () => (
       <SingleSkill delay={10}>
         <img src={Django} alt="Django" /> Django
       </SingleSkill>
-    </SkillsContainer>
+    </Marquee>
 
-    <h1>My Journey</h1>
+    <h1 style={{ marginTop: 50 }}>My Journey</h1>
     <TimelineContainer>
       <VerticalTimeline>
         <VerticalTimelineElement
