@@ -21,7 +21,7 @@ class: "swe"
 
     This reading clearly explained the criteria that developers normally follow when preventing bad software design, and what properties exactly entail bad design. I liked how thorough this reading was and that it had great examples to prove their points. This principle also ties back to the other principles that we learned in the past papers.
 
-1. **What was your experience of ___?**
+1. **What was your experience of functions?**
 
     I'm slipping behind, not really being able to do well on the quizzes or exercises (couldn't figure this week's HackerRank out). I need to set aside some time to focus on the class materials instead of the project.
     

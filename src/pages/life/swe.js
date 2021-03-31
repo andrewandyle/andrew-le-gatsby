@@ -14,10 +14,19 @@ const SWEBlogPage = ({ data }) => (
     <p>
       Software Engineering in UTCS (CS373) is taught by Professor Glenn Downing.
       It teaches the funadmentals of software engineering as well as languages,
-      practices and tools used in this field. This class consists of group
-      projects for building a dynamic website with an API and backend,
-      collaborative HackerRank exercises, and blog entries that we post such as
-      below.
+      practices and tools used in this field. Just like his OOP class, SWE
+      consists of a semester-long full stack group project, collaborative
+      HackerRank exercises, papers that teach programming and design principles
+      which we annotate, and blog entries that we post such as below.
+    </p>
+    <p>
+      The group project is a full stack application built in teams of 5, but the
+      content from class is heavily disconnected from the project, so
+      significant self-teaching is required. And depending on who you get in
+      your team, your project experience could be absolutely brutal depending on
+      how much your team knows or commits to it. I would only recommend this
+      class if you're a person who can thrive in team environments and drive
+      your team to engage a lot (remote teams are definitely difficult too).
     </p>
     <BlogList>
       {data.allMarkdownRemark.edges.map(
