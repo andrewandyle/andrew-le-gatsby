@@ -21,15 +21,15 @@ class: "swe"
 
     This reading clearly explained the criteria that developers normally follow when preventing bad software design, and what properties exactly entail bad design. I liked how thorough this reading was and that it had great examples to prove their points. This principle also ties back to the other principles that we learned in the past papers.
 
-1. **What was your experience of functions?**
+1. **What was your experience of +, *, ** and decorators?**
 
-    I'm slipping behind, not really being able to do well on the quizzes or exercises (couldn't figure this week's HackerRank out, but I suppose everyone was in the same boat). I need to set aside some time to focus on the class materials instead of the project.
+    I'm slipping behind, not really being able to do well on the quizzes or exercises (well, I guess everyone was in the same boat for Wednesday's HackerRank). I need to set aside some time to focus on the class materials instead of the project.
     
-    Some things in the function lectures were familiar, but I also learned some new Python tricks. I'm interested in seeing what kind of code designs can take advantage of iterable unpacking. The examples in class went over unpacking from and into iterables, but I didn't know how to apply unpacking to class attributes (like in this week's HackerRank).
+    Some things in the lectures were familiar, and I've learned some new concepts like unpacking, but I'm still confused overall. I'm interested in seeing what kind of code designs can take advantage of iterable unpacking. I'm still trying to wrap my head around how exactly the MakeIterable/MakeContainer functions made sense, but it'll probably come to me once I rewatch the lectures.
 
 1. **What made you happy this week?**
 
-    I've returned to being a human being this week. Sufficient sleep and cooking for myself again has never felt any better. Also, because I think I deserve a break (because I never went on vacation in over a year due to work + COVID), I reserved an Airbnb at Dallas on a whim and will drive up and explore there the entire weekend!
+    I've returned to being a human being this week. Sufficient sleep and cooking for myself again has never felt any better. Also, I decided to go to Dallas with my friend on a whim. I've never explored Dallas on my own and I think it's about time I took a break from working (haven't vacationed in almost 2 years).
 
 1. **What's your pick-of-the-week or tip-of-the-week?**
 
