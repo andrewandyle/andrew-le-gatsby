@@ -40,6 +40,12 @@ export const ButtonContainer = styled.div`
 
   & img {
     margin-left: 20px;
+    transition: 600ms ease;
+
+    &:hover {
+      filter: drop-shadow(0px 0px 10px white);
+      transition: 600ms ease;
+    }
   }
 
   @media only screen and (max-width: 768px) {

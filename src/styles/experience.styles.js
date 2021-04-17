@@ -15,11 +15,6 @@ export const SingleSkill = styled.div`
     height: 50px;
     margin-bottom: 5px;
   }
-
-  @media only screen and (max-width: 768px) {
-    width: 20%;
-    margin: 0;
-  }
 `
 
 export const SectionsContainer = styled.div`
