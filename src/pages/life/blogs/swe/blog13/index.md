@@ -21,9 +21,9 @@ class: "swe"
 
     I remember reading this paper last semester in OOP. Raising community awareness regarding ethical and behavioral issues in the worplace is important, as more companies over time can take action against these issues and create a better environment for their workers.
 
-5. **What was your experience of ___?**
+5. **What was your experience of joins and refactoring?**
 
-    (Fill in after week is finished)
+    SQL joins were a bit difficult for me to get used to in a short amount of time when driving for that HackerRank. Refactoring seems straightforward so far, I'm guessing we'll be learning even more about that next week, but we won't learn about that or design as much as intended due to the snowstorm.
 
 6. **What made you happy this week?**
 
