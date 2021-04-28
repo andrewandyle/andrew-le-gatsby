@@ -1,34 +1,36 @@
 ---
 path: "/life/swe/7"
 entry: 7
-week: "3/8 - 3/14"
+week: "3/1 - 3/7"
 class: "swe"
 ---
 
 1. **What did you do this past week?**
 
-    I barely caught up on my other classes in time. Both work and SWE had exhausted me last week to the point where I didn't feel like doing anything at the beginning of this week. I met up with my group once to discuss working in parallel for Phase II, since we had many conflicts this week, and we can't do all our work in just the group meetings like last phase.
+    I met up with my group multiple times, spending the majority of this week on developing Phase I. We built out the initial React components to reuse throughout the app, and added the dummy data to pass into them. We continued to communicate on Teams for debugging, and spent a meeting on the other requirements: user stories, API documentation, technical report, and deployment. We were cutting it close on the deadline due to the difficulty of meeting up early.
 
 1. **What's in your way?**
 
-    Spending spring break at home will mean both distractions from my parents and losing my best work environment. I would much rather work on Ubuntu on my PC with two monitors than use WSL on my laptop. I don't think I'll get much work done for anything over spring break.
+    No one else in my group has much React experience. I only recently gained a lot of React experience after getting my first development job last year, so I'm not super proficient at it yet (not to the point where I have a deep understanding and can effectively teach it to others). My group members have already asked me a lot of questions during our development meetings to try to understand it. I'm trying to stay at a pace so that everyone can stay on the same page and nobody gets lost, and that definitely requires exercising lots of patience.
 
 1. **What will you do next week?**
 
-    If I can't get much work done, then I might as well try to relax. But I'm hoping I can at least go out sometimes instead of staying home all week.
+    I'm going to have to catch up on my other classes, as I've fallen behind on them since the Phase I deadline was way more urgent this week. I'm not sure if I'll be doing any Phase II work with my group, but that may depend on when the deadline for that is.
 
-1. **If you read it, what did you think of the Liskov Substitution Principle?**
+1. **If you read it, what did you think of the Open-Closed Principle?**
 
-    I remember this being one of the more confusing readings, and I had to read it over to really try and comprehend it. It's a really good principle to follow when dealing with abstraction, since it deals with consistent behavior across derivative classes of a base class, and it conforms to the Open-Closed Principle.
+    I liked the clear examples this article provided using inheritance, to show what it meant to extend a class rather than directly modify it. I noticed it confuses a lot of people when they first read it: how can you just create code and then never modify it again? It does sound extreme to say that the code shouldn't be modified, but it mostly applies to code that will affect many other parts of the codebase, and we want to reduce these dependencies as much as possible. Once again, identifying when this principle should be applied is challenging, as it requires considerable thought on the design.
 
-1. **What was your experience of iteration, comprehendions, generators, and digits iterator?**
+1. **What was your experience of iterators and reduce2?**
 
-    I haven't learned any of this content for Python, so I'm curious as to when I'll apply these concepts when programming. I've never heard of generators before, not even an equivalent to them in other languages (unless I've actually worked with them unknowingly), and it will probably take a while for me to grasp the utility of them and how they're useful. I've also never really thought about comparing the properties of iterators and containers like in class this week. The digits iterator was pretty simple.
+    I haven't used iterators in Python yet, but I found the differences between Python iterators and Java iterators interesting. Python iterators seem much more usable, having the ability to use a for loop on an iterator. This made the reduce2 solution pretty simple to implement.
+    
+    In my Java projects from Data Structures, I remember always needing to use iterators with while loops and `hasNext()`, and I remember having to resolve errors a lot since I kept using them incorrectly.
 
 1. **What made you happy this week?**
 
-    Algos with Fraij is my main source of stress and has 3/4 of my exams this semester (the other being network security), but I just got a 38/40 on the first exam. While I'm in a good spot, I can't afford to get cocky.
+    Both of my best friends from San Antonio had their birthdays back-to-back (March 3 and March 4), so I was able to wish them happy birthday. I didn't get to go back to San Antonio to visit them due to how busy I was (and there's not as much to do nowadays due to COVID), but I'm glad they both had a great time.
 
 1. **What's your pick-of-the-week or tip-of-the-week?**
 
-    One of the TAs (Alvin) during lab hours had just recommended using [DataGrip](https://www.jetbrains.com/datagrip/) for this project phase when creating our MySQL database and populating it. I've looked into it and it seems very useful! It's a database IDE that makes navigating MySQL databases and code and executing queries much easier. I always used MariaDB on Ubuntu, and working with MySQL on Windows is painful, so I can't wait to try this out for the project.
+    My tip-of-the-week is to use the [Prettier](https://prettier.io/) extension if you're developing your project in VSCode. Prettier is a code formatter that enforces a consistent style based on what language you're using, so it will indent everything correctly, wrap any lines that are too long, and automatically add commas or semicolons wherever needed in JavaScript. Most of us have different coding/syntax preferences, and it's hard for code between 5 people to remain consistent, especially for newer developers. Using Prettier can fix that by making all of the code consistent and readable.

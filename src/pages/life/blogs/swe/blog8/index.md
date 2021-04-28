@@ -1,38 +1,34 @@
 ---
 path: "/life/swe/8"
 entry: 8
-week: "3/22 - 3/28"
+week: "3/8 - 3/14"
 class: "swe"
 ---
 
 1. **What did you do this past week?**
 
-    Phase 2 was and continues to be my main objective throughout the entire week. I'm pulling out all the stops just to make up for our lack of progress, and suffered greatly after making strides in an all-nighter. Since we split into frontend and backend teams, I'm on the backend team, and I spent this week dealing with lots of difficulties setting up and connecting to the PostgreSQL database.
+    I barely caught up on my other classes in time. Both work and SWE had exhausted me last week to the point where I didn't feel like doing anything at the beginning of this week. I met up with my group once to discuss working in parallel for Phase II, since we had many conflicts this week, and we can't do all our work in just the group meetings like last phase.
 
 1. **What's in your way?**
 
-    There are many things my team has to improve on. Unfortunately, I was the most familiar with React and AWS when starting off with the team, and there's a lot of things in this phase that none of my team and I knew or understood. It's become a huge grind for knowledge, and we kept running into bug after bug and going to office/lab hours. I also don't know what to do about the lack of communication sometimes, both on Teams and during full group Zoom meetings, but that's likely caused by the lack of knowledge. I will do whatever it takes next phase to increase productivity and communication, and for the entire team to be on the same page.
+    Spending spring break at home will mean both distractions from my parents and losing my best work environment. I would much rather work on Ubuntu on my PC with two monitors than use WSL on my laptop. I don't think I'll get much work done for anything over spring break.
 
 1. **What will you do next week?**
 
-    Immediately after I finish with Phase 2, I will suffer hardcore from my TLS lab in Network Security. I'm really behind in that class, and my friend keeps telling me that the TLS lab is on the level of an OS lab. I should have set aside some time for that, because labs in that class are pass-fail: if you don't pass all test cases, you get a zero. And it's 12% of your grade.
+    If I can't get much work done, then I might as well try to relax. But I'm hoping I can at least go out sometimes instead of staying home all week.
 
-1. **If you read it, what did you think of the Interface Segregation Principle?**
+1. **If you read it, what did you think of the Liskov Substitution Principle?**
 
-    This reading explained the most common problems people need to watch out for when designing interfaces, even tying back to several of the principles that we learned before. It did a great job showing the consequences of designing "fat" interfaces, as well as some solutions to conform to this principle, especially multiple inheritance.
+    I remember this being one of the more confusing readings, and I had to read it over to really try and comprehend it. It's a really good principle to follow when dealing with abstraction, since it deals with consistent behavior across derivative classes of a base class, and it conforms to the Open-Closed Principle.
 
-1. **What was your experience of comprehensions, yield, closures, and decorators?**
+1. **What was your experience of iteration, comprehendions, generators, and digits iterator?**
 
-    Once again, these are all new to me in Python, and I'm curious as to when I would utilize them. This week's map HackerRank was a good, simple example of when to use yields.
-    
-    (I'm also not sharp at using any of these yet, as I'm slipping behind in class and no longer getting good quiz grades due to having to worry about the project.)
+    I haven't learned any of this content for Python, so I'm curious as to when I'll apply these concepts when programming. I've never heard of generators before, not even an equivalent to them in other languages (unless I've actually worked with them unknowingly), and it will probably take a while for me to grasp the utility of them and how they're useful. I've also never really thought about comparing the properties of iterators and containers like in class this week. The digits iterator was pretty simple.
 
 1. **What made you happy this week?**
 
-    After pushing through as hard as I could all week and still having no hope, the extension on Phase 2 saved me just for today. I have a little bit of hope now.
+    Algos with Fraij is my main source of stress and has 3/4 of my exams this semester (the other being network security), but I just got a 38/40 on the first exam. While I'm in a good spot, I can't afford to get cocky.
 
 1. **What's your pick-of-the-week or tip-of-the-week?**
 
-    My tip-of-the-week is to try obtaining the AWS Cloud Practitioner certification. Over spring break, I watched a really good [tutorial](https://www.youtube.com/watch?v=3hLmDS179YE) from freeCodeCamp.org. After completing this video, I wish I knew a lot of these services before starting this SWE project, because now I've finally gained a high-level understanding of how a lot of the AWS services work and what they're used for. It's way better than blindly following tutorials and not knowing how each service fits into the overall project. I had no idea how to explain any of what I was doing to my team.
-
-    Though it is mentioned in this video that this certification doesn't do much good for developers. This certification benefits people in sales and management the most, since they can inform their CEOs about reasons to utilize AWS. I think some of the superficial knowledge helps though when it comes to making decisions in project teams, like choosing what services are the most cost-effective for the amount of clients you're serving. Also, if you want to become a certified AWS Developer or Solutions Architect, this exam would be an easy start to get used to the certification exams!
+    One of the TAs (Alvin) during lab hours had just recommended using [DataGrip](https://www.jetbrains.com/datagrip/) for this project phase when creating our MySQL database and populating it. I've looked into it and it seems very useful! It's a database IDE that makes navigating MySQL databases and code and executing queries much easier. I always used MariaDB on Ubuntu, and working with MySQL on Windows is painful, so I can't wait to try this out for the project.

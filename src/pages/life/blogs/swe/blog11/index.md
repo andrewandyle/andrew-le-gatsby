@@ -1,34 +1,36 @@
 ---
 path: "/life/swe/11"
 entry: 11
-week: "4/12 - 4/18"
+week: "4/5 - 4/11"
 class: "swe"
 ---
 
 1. **What did you do this past week?**
 
-    I take back everything I said last week about this phase being chill. I got overconfident and we ended up cutting it close, but with two days of going extremely hard on Phase 3, my group and I were able to swiftly get everything done.
+    This week was finally chill for once, at least, after the algos exam. After getting that out of the way, I began MODERATELY working on Phase 3 by refactoring and refining our REST API, while balancing my other classwork and my job. I also got my first dose of the COVID vaccine at Greg.
 
 2. **What's in your way?**
 
-    While my team is heading in the right direction in terms of initiative and communication, the knowledge and speed gaps still remain. I usually have to answer the majority of my team's questions on the stack or just basic Git stuff. I wanted to leave the harder tasks to them this phase so they would have the chance to take ownership and struggle through the learning process. Once the deadline started closing in though, I had to jump back in to speed up all implementations of filtering/searching/sorting. But at least their effort is more visible.
+    Not too much this time. I'm staying ahead in some of my classes, but I'm also toning it down for this class now. I'm offering my teammates support instead of taking total ownership like last phase, since I'm still doing my fair share, and I'm just prepared to accept whatever design they implement for filtering/searching/sorting.
 
 3. **What will you do next week?**
 
-    I'm unsure what the game plan will be like for Phase 4, since there's no new major additions besides the visualizations and presentation. I'm still going to think of how to approach the final phase of the project with the group to minimize the stress this time.
+    Since we have a large amount of data and the frontend team prefers to handle the filtering and sorting on the backend, we will figure out the best way to implement that functionality into our endpoints. I'm pretty sure SQLAlchemy should make things easy for us there. Also, the Phase 3 deadline just got pushed back, so I can take it even easier.
 
-4. **If you read it, what did you think of the More getters and setters?**
+4. **If you read it, what did you think of Why getter and setter methods are evil?**
 
-    I haven't had the time to read this week's paper, as my hands are full with Phase 3 and my network security lab due right after.
+    I remember needing to avoid using getters and setters in all OOP projects last semester, as that rule was highlighted in all the descriptions. I was initially very confused as to why they were so bad and often went to office hours to clarify what was considered using them. This reading really falls in line with the reasoning behind that requirement: we had always emphasized the importance of data abstraction and why objects shouldn't expose their implementation details.
 
-5. **What was your experience of SQL?**
+    Of course this was posted while OOP is currently going through the Darwin project. Oh, that was definitely my most hellish project in that class.
 
-    I've definitely gained a better understanding of SQL on a low level after this week. It's just a good thing I don't have to memorize the query syntax for any reason. I've only needed to code in SQL for this class and Modern Web Apps, but whenever I work on projects, SQL is always abstracted away from me so I don't have to directly write out queries (especially this project with SQLAlchemy).
+5. **What was your experience of select, project, cross join and theta join?**
+
+    The relational algebra concepts are pretty clear to me now. My team barely didn't get the select HackerRank, which pushed me to finally catch up in all the lectures, so I have the properties of generators and decorators absorbed in my head. I was able to get the project HackerRank easily after that. I still don't have the habit of using comprehensions when opportunities arise, but if I keep coding in Python more, then maybe I'll start using them more.
 
 6. **What made you happy this week?**
 
-    I've gone 10 days without eating out after stocking up my pantry. I went on a restaurant spree last month to cross a lot of new places off my Austin bucket list, but spent a crazy amount of money in the process, so now I'm exercising some restraint. It's scary how easy it is sometimes to spend money on food without thinking, and then the money spent just piles up later.
+    It's less than a month now until the semester ends, so it's the final wave of projects and two exams at the end. I'm way too eager to start my Citi internship already, and I'm also looking forward to going all-out on my current job immediately after the semester ends and before I leave.
 
 7. **What's your pick-of-the-week or tip-of-the-week?**
 
-    My pick-of-the-week is something that Downing already posted about on Piazza a while ago: [Notion](https://www.notion.so/). I never knew about it until he brought it up, but it's a really great software used for workspaces, note-taking, reminders, and more. I switched over to using Notion for personal use, as I maintain my agenda on there instead of Google Keep now. It's easy to use, has many templates, and has a lot of potential for team workspaces as well!
+    My tip-of-the-week is, if you're using Marshmallow in your REST API for schemas, then you should be using the SQLAlchemy integration, [marshmallow-sqlalchemy](https://marshmallow-sqlalchemy.readthedocs.io/en/latest/), if you aren't already. Last phase, we had a really inefficient setup with our association tables, and we also ended up defining all the fields in our schemas (and even having schemas for the association tables). We were using SQLAlchemy and Marshmallow separately, but with this library, we could automatically create our schemas with all fields AND include relationships after we added backrefs. This was a refactor that was easy to implement and fixed many flaws with our backend code!
