@@ -1,34 +1,38 @@
 ---
 path: "/life/swe/13"
 entry: 13
-week: "4/19 - 4/25"
+week: "4/26 - 5/2"
 class: "swe"
 ---
 
 1. **What did you do this past week?**
 
-    Since I'm eager to finish the project, and there isn't much coding-wise in Phase 4, I set aside 10 hours immediately after the Phase 3 deadline to wrap up the remaining user stories, then create all visualizations for our data and our provider's data. I'm completely done with code for this project, until we get feedback from the graders. So I used most of this week to prepare for the presentation.
+    I finished editing the SWE presentation on Sony Vegas last weekend. This allowed me to fully prioritize my other 3 classes all week since I'm basically set for this one. I also finished my video presentation for my music class, also using Sony Vegas. The only things I have remaining are a lab and exam for network security and an exam for algos.
 
 2. **What's in your way?**
 
-    I'm definitely feeling the impact of the last few months of constant grinding. When it came to my full stack job, I would push hard on completing tasks on top of schoolwork, as well as use my winter and spring breaks as a chance to grind even more. If I was feeling physically or mentally tired, I would ignore it. Now I'm starting to feel a lack of motivation close to the end of the semester, where I just want to swiftly complete everything and get them over with. This project definitely accelerated my exhaustion as well.
+    Nothing's in my way for this class. My lack of motivation is in the way for my other two CS classes, especially algos. I have an entire week to catch up on lectures before I take those exams back-to-back. I just want them done already.
 
 3. **What will you do next week?**
 
-    The endgame for my semester is two video presentations (SWE and western music) and two exams (algos and network security), so by completing the videos first, I can reduce my overall workload to the two exams. Next week I will start putting a heavier focus on the exams, but hopefully by this weekend I'm close enough on finishing my videos so I can relax on those classes.
+    I will show my presentation video next Monday, and I will continue to put in my final efforts into my other two CS classes. My semester is done once those exams are over.
 
-4. **If you read it, what did you think of What Happens to Us Does Not Happen to Most of You?**
+4. **If you read it, what did you think of the Joel Test?**
 
-    I remember reading this paper last semester in OOP. Raising community awareness regarding ethical and behavioral issues in the workplace is important, as more companies over time can take action against these issues and create a better environment for their workers.
+    I didn't read this week's paper, as I spent most of my time on Phase 4 and then catching up or working on projects for my other classes.
 
-5. **What was your experience of joins and refactoring?**
+5. **What was your experience of ___?**
 
-    SQL joins were a bit difficult for me to get used to in a short amount of time when driving for that HackerRank. Refactoring seems straightforward so far, I'm guessing we'll be learning even more about that next week, but we won't learn about that or design as much as intended due to the snowstorm.
+    I didn't attend class this week. Last two HackerRanks I had were cutting it close, since my attention span is definitely shorter when I know I'm safe due to the grade drops. So I decided I'm better off not dragging others who need the exercise grades down.
 
 6. **What made you happy this week?**
 
-    I got to register for my classes early, since I'm currently 96% complete and graduating next fall. I only had two CS classes to go, so that's all I needed to register for. Hoping for a laid-back semester (and back in-person!) after two brutal online semesters.
+    I'm happy that I finished my group's presentation over a week early, and I'm proud of the way it turned out. I'm actually looking forward to showing it to others.
+  
+    Overall, I've gained a lot of value out of this team experience for SWE, but it did also crush my health, so I'm also really glad that it's over.
 
 7. **What's your pick-of-the-week or tip-of-the-week?**
 
-    My tip-of-the-week is to use [recharts](https://recharts.org/en-US) to create your Phase 4 visualizations if you haven't already done them yet. This library allows you to use their React components to create D3 charts under the hood, rather than needing to do the JavaScript code from scratch. All you have to worry about is filtering your data based on what you want to visualize, then pass it in! There are many helpful examples from both this library's documentation as well as last semester's repos.
+    My pick-of-the-week is [Lucidchart](https://www.lucidchart.com/pages/). It's a great online tool to make visuals and flowcharts. I like seeing software architecture diagrams, especially since it helps me understand how AWS components connect with each other. I realized that my current company had a diagram of their architecture using this tool, so I decided to build the same thing for our SWE project.
+
+    ![Books For You Architecture](https://i.imgur.com/R27jHSW.png)

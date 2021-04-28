@@ -1,38 +1,36 @@
 ---
 path: "/life/swe/9"
 entry: 9
-week: "3/22 - 3/28"
+week: "3/29 - 4/4"
 class: "swe"
 ---
 
 1. **What did you do this past week?**
 
-    Phase 2 was and continues to be my main objective throughout the entire week. I'm pulling out all the stops just to make up for our lack of progress, and suffered greatly after making strides in an all-nighter. Since we split into frontend and backend teams, I'm on the backend team, and I spent this week dealing with lots of difficulties setting up and connecting to the PostgreSQL database.
+    Over the weekend, despite how tired I already was, I made one final push to complete the requirements for Phase 2 with my team. Phase 2 was an absolute NIGHTMARE and we would've been doomed without the extension. We've already started preparing for Phase 3, creating our user stories early, increasing communcation, and delegating tasks immediately.
 
 1. **What's in your way?**
 
-    There are many things my team has to improve on. Unfortunately, I was the most familiar with React and AWS when starting off with the team, and there's a lot of things in this phase that none of my team and I knew or understood. It's become a huge grind for knowledge, and we kept running into bug after bug and going to office/lab hours. I also don't know what to do about the lack of communication sometimes, both on Teams and during full group Zoom meetings, but that's likely caused by the lack of knowledge. I will do whatever it takes next phase to increase productivity and communication, and for the entire team to be on the same page.
+    I'm so tired. Both my physical and mental condition felt depleted by the end of Phase 2. I tried putting in more than everything I had to get the phase completed, so now I barely want to think about code. My mind feels really sluggish now.
 
 1. **What will you do next week?**
 
-    Immediately after I finish with Phase 2, I will suffer hardcore from my TLS lab in Network Security. I'm really behind in that class, and my friend keeps telling me that the TLS lab is on the level of an OS lab. I should have set aside some time for that, because labs in that class are pass-fail: if you don't pass all test cases, you get a zero. And it's 12% of your grade.
+    I have an algos exam on Monday, so immediately after that is when I plan on beginning my commits to Phase 3. I don't plan on doing nearly as much work as last phase though. I will respond to my teammates' questions and assist them while they drive on calls, but overall I think I will take a back seat and do a fair amount of work so I can recover and stay relaxed. Also, getting my vaccine from UT on Tuesday, so I'm not sure how that experience will be yet.
 
-1. **If you read it, what did you think of the Interface Segregation Principle?**
+1. **If you read it, what did you think of the Dependency Inversion Principle?**
 
-    This reading explained the most common problems people need to watch out for when designing interfaces, even tying back to several of the principles that we learned before. It did a great job showing the consequences of designing "fat" interfaces, as well as some solutions to conform to this principle, especially multiple inheritance.
+    This reading clearly explained the criteria that developers normally follow when preventing bad software design, and what properties exactly entail bad design. I liked how thorough this reading was and that it had great examples to prove their points. This principle also ties back to the other principles that we learned in the past papers.
 
-1. **What was your experience of comprehensions, yield, closures, and decorators?**
+1. **What was your experience of +, *, ** and decorators?**
 
-    Once again, these are all new to me in Python, and I'm curious as to when I would utilize them. This week's map HackerRank was a good, simple example of when to use yields.
+    I'm slipping behind, not really being able to do well on the quizzes or exercises (well, I guess everyone was in the same boat for Wednesday's HackerRank). I need to set aside some time to focus on the class materials instead of the project.
     
-    (I'm also not sharp at using any of these yet, as I'm slipping behind in class and no longer getting good quiz grades due to having to worry about the project.)
+    Some things in the lectures were familiar, and I've learned some new concepts like unpacking, but I'm still confused overall. I'm interested in seeing what kind of code designs can take advantage of iterable unpacking. I'm still trying to wrap my head around how exactly the MakeIterable/MakeContainer functions made sense, but it'll probably come to me once I rewatch the lectures.
 
 1. **What made you happy this week?**
 
-    After pushing through as hard as I could all week and still having no hope, the extension on Phase 2 saved me just for today. I have a little bit of hope now.
+    I've returned to being a human being this week. Sufficient sleep and cooking for myself again has never felt any better. Also, I decided to go to Dallas with my friend on a whim. I've never explored Dallas on my own and I think it's about time I took a break from working (haven't vacationed in almost 2 years).
 
 1. **What's your pick-of-the-week or tip-of-the-week?**
 
-    My tip-of-the-week is to try obtaining the AWS Cloud Practitioner certification. Over spring break, I watched a really good [tutorial](https://www.youtube.com/watch?v=3hLmDS179YE) from freeCodeCamp.org. After completing this video, I wish I knew a lot of these services before starting this SWE project, because now I've finally gained a high-level understanding of how a lot of the AWS services work and what they're used for. It's way better than blindly following tutorials and not knowing how each service fits into the overall project. I had no idea how to explain any of what I was doing to my team.
-
-    Though it is mentioned in this video that this certification doesn't do much good for developers. This certification benefits people in sales and management the most, since they can inform their CEOs about reasons to utilize AWS. I think some of the superficial knowledge helps though when it comes to making decisions in project teams, like choosing what services are the most cost-effective for the amount of clients you're serving. Also, if you want to become a certified AWS Developer or Solutions Architect, this exam would be an easy start to get used to the certification exams!
+    My pick-of-the-week is something that I found because I happened to read one of Kent Hansen's [blogs](https://kenthansen98.medium.com/cs-373-spring-2021-kent-hansen-4-2d1f326ba385): an online course/resource for full stack development called [Full Stack Open](https://fullstackopen.com/en/). It has a lot of explanations and exercises which go over essential full stack tools like React, Redux, Node.js, Express, and GraphQL. It teaches you how to build a full stack app using a REST API, but using different tools from our project requirements. If you found yourself struggling to pick up on this project, I recommend you read through these if you want to improve your skills after this class!
