@@ -19,7 +19,7 @@ class: "swe"
 
 4. **If you read it, what did you think of What Happens to Us Does Not Happen to Most of You?**
 
-    I remember reading this paper last semester in OOP. Raising community awareness regarding ethical and behavioral issues in the worplace is important, as more companies over time can take action against these issues and create a better environment for their workers.
+    I remember reading this paper last semester in OOP. Raising community awareness regarding ethical and behavioral issues in the workplace is important, as more companies over time can take action against these issues and create a better environment for their workers.
 
 5. **What was your experience of joins and refactoring?**
 
