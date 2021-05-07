@@ -130,6 +130,14 @@ const LifePage = () => (
     </SlideshowContainer>
     <h1>Collections</h1>
     <SectionsContainer>
+      <Link to="/life/austin-food">
+        <SectionCard color="pinkYellow" delay={3}>
+          <h3>Austin Food Favorites</h3>
+          <p>
+            My recommendations for restaurants to try in Austin. (This is a WIP)
+          </p>
+        </SectionCard>
+      </Link>
       <Link to="/life/swe">
         <SectionCard color="darkBlue" delay={3}>
           <h3>SWE Blog Posts</h3>

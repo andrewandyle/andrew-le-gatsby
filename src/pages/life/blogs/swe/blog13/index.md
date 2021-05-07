@@ -5,8 +5,6 @@ week: "4/26 - 5/2"
 class: "swe"
 ---
 
-This blog post is after I shifted all blog numbers back (because blog 5 was skipped due to snowstorm), so [this](https://aale.dev/life/swe/12) is my Blog 13 assignment.
-
 1. **What did you do this past week?**
 
     I finished editing the SWE presentation on Sony Vegas last weekend. This allowed me to fully prioritize my other 3 classes all week since I'm basically set for this one. I also finished my video presentation for my music class, also using Sony Vegas. The only things I have remaining are a lab and exam for network security and an exam for algos.
