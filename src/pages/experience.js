@@ -89,7 +89,7 @@ const ExperiencePage = () => (
         </VerticalTimelineElement>
         <VerticalTimelineElement
           contentStyle={{ borderTop: 'solid 4px #38d4d1' }}
-          date="April 2020 - Present"
+          date="April 2020 - May 2021"
           icon={<img id="promazo" src={ProMazo} alt="ProMazo" width={30} />}
           iconStyle={{ display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'linear-gradient(to right, #38d4d1, #59cd89)' }}
         >
@@ -103,9 +103,8 @@ const ExperiencePage = () => (
           <h4>ProMazo</h4>
           <LinksContainer color="pmGreen">
             <TimelineLink href="https://promazo.com/" target="_blank" rel="noreferrer">MAIN WEBSITE</TimelineLink>
-            <TimelineLink href="https://app.promazo.com/" target="_blank" rel="noreferrer">MIMINO</TimelineLink>
-            <TimelineLink href="http://100kmentors.org/" target="_blank" rel="noreferrer">100KM WEBSITE</TimelineLink>
-            <TimelineLink href="https://apps.apple.com/us/app/100k-mentor-challenge/id1528816720" target="_blank" rel="noreferrer">100KM APP</TimelineLink>
+            <TimelineLink href="https://mimino.promazo.com/" target="_blank" rel="noreferrer">MIMINO</TimelineLink>
+            <TimelineLink href="https://mentors.promazo.com/" target="_blank" rel="noreferrer">100KM</TimelineLink>
           </LinksContainer>
         </VerticalTimelineElement>
         <VerticalTimelineElement
