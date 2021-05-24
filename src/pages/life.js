@@ -9,7 +9,6 @@ import { Slide } from "react-slideshow-image"
 import "react-slideshow-image/dist/styles.css"
 
 import Avatar from "../images/icons/avatar.png"
-import Persona from "../images/life/persona.jpg"
 // Slide Images
 import Coding from "../images/life/slideshow/coding.jpg"
 import Downtown1 from "../images/life/slideshow/downtown1.jpg"
@@ -24,7 +23,6 @@ import {
   AboutMe,
   SlideshowContainer,
   SingleSlide,
-  Favorites,
   SectionsContainer,
   SectionCard,
 } from "../styles/life.styles"
@@ -54,40 +52,6 @@ const LifePage = () => (
         </p>
       </div>
     </AboutMe>
-    <h1>Favorites</h1>
-    <Favorites>
-      <div>
-        <b>Animes:</b>
-        <ul>
-          <li>Dragon Ball Z/Super</li>
-          <li>JoJo's Bizarre Adventure</li>
-          <li>Death Note</li>
-          <li>Kaguya-sama: Love is War</li>
-          <li>Parasyte -the maxim-</li>
-          <li>KonoSuba</li>
-          <li>One Punch Man</li>
-          <li>Mob Psycho 100</li>
-        </ul>
-      </div>
-      <div>
-        <b>Games:</b>
-        <ul>
-          <li>Persona 3/4/5</li>
-          <li>Super Smash Bros.</li>
-          <li>Overwatch</li>
-          <li>Minecraft</li>
-          <li>Terraria</li>
-        </ul>
-        <b>TV Shows:</b>
-        <ul>
-          <li>The Office</li>
-          <li>Game of Thrones</li>
-        </ul>
-      </div>
-      <div style={{ marginRight: 0 }}>
-        <img src={Persona} alt="Persona" />
-      </div>
-    </Favorites>
     <SlideshowContainer>
       <Slide
         autoplay={false}

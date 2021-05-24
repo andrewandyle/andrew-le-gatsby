@@ -33,35 +33,6 @@ export const AboutMe = styled.div`
   }
 `
 
-export const Favorites = styled.div`
-  margin-bottom: 50px;
-  font-size: 22px;
-  display: flex;
-  justify-content: center;
-  animation: ${fadeInFromTop};
-  animation-duration: 1000ms;
-  flex-wrap: wrap;
-
-  & div {
-    margin-right: 25px;
-    width: 260px;
-  }
-
-  & ul {
-    margin: 20px 1.45rem 20px;
-  }
-
-  & li {
-    margin-bottom: 0.5rem;
-  }
-
-  @media only screen and (max-width: 768px) {
-    font-size: 18px;
-    margin-bottom: 25px;
-    align-items: center;
-  }
-`
-
 export const SectionsContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
