@@ -41,8 +41,8 @@ const locationData = {
   favorites: [
     {
       name: "Tumble22",
-      lat: 30.348045933913422,
-      lng: -97.7352554290337,
+      lat: 30.27806008590229,
+      lng: -97.77169128855552,
       website: "http://tumble22.com/",
       image: "https://i.imgur.com/BvVnh4R.jpg",
       paragraphs: [
@@ -83,17 +83,6 @@ const locationData = {
       paragraphs: [
         "A Turkish kebab restaurant on E 7th St. A pretty lowkey place that I discovered myself with my friends, and it's great in terms of quality and value, so I highly recommend giving it a try!",
         "I usually go for their meat options, but you can also customize your kebab if you want! Also, I find their king size kebabs (the picture is king size) to be quite a lot (at least for my small stomach) and actually worth its price!",
-      ],
-    },
-    {
-      name: "Trudy's",
-      lat: 30.370780356094468,
-      lng: -97.7275283732115,
-      website: "https://www.trudys.com/mobile/index.php",
-      image: "https://i.imgur.com/FRMSZ7j.jpg",
-      paragraphs: [
-        "A local Tex-Mex restaurant and bar. I went to Trudy's Texas Star with a group of friends during my first year at UT, and that was their West Campus location, which unfortunately closed down. But much later, I got to eat Trudy's again at their North Star location on Burnet Rd!",
-        "Their most popular item, without a doubt, is the stuffed avacado (which is the picture, and probably hard to tell), and that's what I got both times. It's a fried and breaded avacado, sauced and coated with cheese, stuffed with chicken and more cheese! And like most other Tex-Mex places, the sides and chips complete the value.",
       ],
     },
     {
