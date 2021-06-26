@@ -98,7 +98,7 @@ const LifePage = () => (
         <SectionCard color="pinkYellow" delay={3}>
           <h3>Austin Food Favorites</h3>
           <p>
-            My recommendations for restaurants to try in Austin. (This is a WIP)
+            My recommendations for restaurants to try in Austin.
           </p>
         </SectionCard>
       </Link>
