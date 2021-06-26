@@ -92,6 +92,10 @@ export const AccordionContainer = styled.div`
   & li {
     margin-bottom: 0;
   }
+  & p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
   @media only screen and (max-width: 768px) {
     width: 100%;
   }
