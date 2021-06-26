@@ -50,7 +50,6 @@ export const PictureContent = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     font-size: 24px;
     & img {
       margin-top: 10px;

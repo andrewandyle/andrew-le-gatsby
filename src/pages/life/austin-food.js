@@ -257,7 +257,7 @@ const locationData = {
       image: "https://i.imgur.com/w5GH6GF.jpg",
       paragraphs: [
         "This is definitely my favorite ice cream place so far in Austin. I usually go to the one in South Congress, but I believe the Domain also has a location. You can also buy pints of their flavors, but they're pretty expensive and I don't treat myself to their ice cream too often.",
-        "Among all other ice cream places, this one has definitely piqued my curiosity the most with their flavors. I don't remember the exact flavor names, but I've had their popcorn flavor in the summer, as well as a cognac flavor closer to the winter."
+        "Among all other ice cream places, this one has definitely piqued my curiosity the most with their flavors. I don't remember the exact flavor names, but I've had their popcorn flavor in the summer, as well as a cognac flavor closer to the winter.",
       ],
     },
   ],
@@ -417,7 +417,14 @@ const AustinFoodPage = () => {
               <img src={activePlace.image} alt={activePlace.name} />
             </div>
           ) : (
-            <div>Click a restaurant to see a picture!</div>
+            <div>
+              <img
+                src="https://i.pinimg.com/originals/4e/24/f5/4e24f523182e09376bfe8424d556610a.png"
+                style={{ filter: "invert()", width: 100, marginBottom: 15 }}
+                alt="Restaurant"
+              />
+              Click a restaurant to see a picture!
+            </div>
           )}
         </PictureContent>
         <AccordionContainer activeTab={activeTab}>
