@@ -53,8 +53,8 @@ const locationData = {
     },
     {
       name: "Ramen Tatsu-Ya",
-      lat: 30.263145024150198,
-      lng: -97.72641810911325,
+      lat: 30.254073927993062,
+      lng: -97.7632452051524,
       website: "https://ramen-tatsuya.com/",
       image: "https://i.imgur.com/tlzZhai.jpg",
       paragraphs: [
