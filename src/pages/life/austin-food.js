@@ -177,18 +177,18 @@ const locationData = {
       image: "https://i.imgur.com/nrPRm37.jpg",
       paragraphs: [
         "Tuesday Special: $2 per street taco",
-        "This is one place where I've found with Taco Tuesday, though it's a bar so I can't bring any friend under 21 in. I did like their street tacos: I got the Lucy tacos which are pork tacos (usually $4 so I got them half off), and I ordered 4 of them, so if you eat around the same as me, then I'd consider this an $8 deal.",
+        "This is one place I've found with Taco Tuesday, though it's a bar so I can't bring any friend under 21 in. I did like their street tacos: I got the Lucy tacos which are pork tacos (usually $4 so I got them half off), and I ordered 4 of them, so if you eat around the same as me, then I'd consider this an $8 deal.",
       ],
     },
     {
-      name: "Drinks Lounge",
-      lat: 30.256533357212277,
-      lng: -97.72326110204897,
-      website: "https://www.drinkslounge.bar/",
-      image: "https://i.imgur.com/q5PLsY8.jpg",
+      name: "Cenote",
+      lat: 30.26048171572688,
+      lng: -97.7336649153879,
+      website: "https://cenoteaustin.com/home/",
+      image: "https://i.imgur.com/eoXQMBf.jpg",
       paragraphs: [
-        "Thursday Special: $6 for the Drinks Lounge burger (the burger ONLY)",
-        "Another bar which I can't bring friends under 21 in. I found this deal on r/austinfood, but the post had shown the burger and tots, with the title implying they were $6 together. Fries and tots are $3 extra, so if you can't eat a burger without either of those, this is a $9 deal. Make it worthwhile by getting a drink.",
+        "Thursday Special: Buy one burger, get one free (fries included); pictured burger (Cenote Smoker Burger) is $12, so $6 each",
+        "I found this coffee shop on r/austinfood with the mention of BOGO free every Thursday, so I went and tried it with my friend. We both thought the quality was great! A 1/3 pound burger with fries for $6 is a really good deal, plus you can try other types of burgers with this deal! If you're ever in Austin with friends on a Thursday, I find this place worth hitting up.",
       ],
     },
     {
