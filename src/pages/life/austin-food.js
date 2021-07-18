@@ -40,6 +40,28 @@ const austinBounds = {
 const locationData = {
   favorites: [
     {
+      name: "Ramen Tatsu-Ya",
+      lat: 30.254073927993062,
+      lng: -97.7632452051524,
+      website: "https://ramen-tatsuya.com/",
+      image: "https://i.imgur.com/OyP109h.jpg",
+      paragraphs: [
+        "Ramen Tatsu-Ya is THE social ramen joint in Austin, no contest. I've gone here multiple times with my UT friends. And even after trying many different ramen places, this one still stands out.",
+        "The most popular items here are always the tonkotsu ramen (the picture shows the sho-yu variant). I always like ordering bombs as well as extra noodles (which I find necessary, since I never get filled without them).",
+      ],
+    },
+    {
+      name: "Kura Revolving Sushi Bar",
+      lat: 30.337420981776642,
+      lng: -97.71720600374279,
+      website: "https://kurasushi.com/",
+      image: "https://i.imgur.com/Av5VBy7.jpg",
+      paragraphs: [
+        "Kura seems to be the go-to whenever I invite my friends to Austin or we have a good occasion to celebrate. And we're all satisfied with the visit every time. If you've never been to other Kura locations across the U.S., give it a shot here.",
+        "I love going to Kura for two reasons: because I can try many different rolls at once and diversify my palette, and because you can eat as little or as much as you want, so it doesn't matter how much your friends can eat. I tend to get carried away here with plates, and I always seem to get takoyaki or beef ojyu.",
+      ],
+    },
+    {
       name: "Tumble22",
       lat: 30.27806008590229,
       lng: -97.77169128855552,
@@ -49,17 +71,6 @@ const locationData = {
         "Definitely my favorite chicken joint in Austin, and one with a broad range of spice levels! A friend recommended it to me after telling me that even his virtual co-workers across the U.S. knew about this place, so it's apparently a big deal!",
         "The spiciest levels are no joke, so definitely take caution if you don't know how much you can handle! I've had both the tenders and OG chicken sandwich, and I always pair them with a side of dirty fries!",
         "They also have good happy hour deals on weekdays from 3-6pm, so I recommend dropping by for a slightly early dinner if possible!",
-      ],
-    },
-    {
-      name: "Ramen Tatsu-Ya",
-      lat: 30.254073927993062,
-      lng: -97.7632452051524,
-      website: "https://ramen-tatsuya.com/",
-      image: "https://i.imgur.com/tlzZhai.jpg",
-      paragraphs: [
-        "Ramen Tatsu-Ya is THE social ramen joint in Austin, no contest. I've gone here multiple times with my UT friends. And even after trying many different ramen places, this one still stands out.",
-        "The most popular items here are always the tonkotsu ramen (which is the picture). I always like ordering bombs as well as extra noodles (which I find necessary, since I never get filled without them).",
       ],
     },
     {
@@ -145,17 +156,6 @@ const locationData = {
         "Many UT CS events that I've attended, especially hackathons, will order catering from this place, so there's always a pretty big supply for students. But the quality of catering is, of course, nothing compared to actually eating at the restaurant.",
       ],
     },
-    {
-      name: "Cabo Bob's",
-      lat: 30.295755231667666,
-      lng: -97.74414760385584,
-      website: "https://cabobobs.com/",
-      image: "https://i.imgur.com/WvgWGRX.jpg",
-      paragraphs: [
-        "Cabo Bob's is a burrito place that's pretty far from campus, at the intersection of Rio Grande and 29th St. I didn't realize until reading posts in r/austinfood that it was pretty hyped up in Austin as a favorite, so apparently we're lucky to have one within West Campus.",
-        "Besides the fish-based items, it almost seems the same as Chipotle, with the same kinds of options and meats that are made in front of you. I ate a fried fish burrito (picture), which I really liked. Until I try the other meats, I'm not sure how the quality compares to Chipotle, but I will definitely want to come back for more fish.",
-      ],
-    },
   ],
   deals: [
     {
@@ -209,11 +209,10 @@ const locationData = {
       lat: 30.267820733304852,
       lng: -97.74083591567542,
       website: "https://www.voodoodoughnut.com/",
-      image: "https://i.imgur.com/5vdDOsH.jpg",
+      image: "https://i.imgur.com/vw6Xmob.jpg",
       paragraphs: [
         "A popular donut shop in 6th St. I first heard about it when my best friend from San Antonio hyped it up, and I always hooked him up with donuts from here when returning to San Antonio.",
         "I've come here plenty of times to try new flavors. I really like the variety and unique flavors this place provides. Some flavors I've tried are rather... unique (the Bacon Maple Bar).",
-        "(by the way, this isn't my picture, I didn't happen to have a good one, but I think this picture captures the variety)",
       ],
     },
     {
