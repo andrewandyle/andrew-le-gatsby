@@ -81,12 +81,26 @@ export const SingleSlide = styled.div`
     justify-content: space-evenly;
   }
 
+  #DDR-gif {
+    display: none;
+  }
+
   @media only screen and (max-width: 875px) {
     height: 100%;
 
     & div {
       flex-direction: column;
       flex-wrap: wrap;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    #DDR-video {
+      display: none;
+    }
+
+    #DDR-gif {
+      display: block;
     }
   }
 `

@@ -11,6 +11,7 @@ import "react-slideshow-image/dist/styles.css"
 import Avatar from "../images/icons/avatar.png"
 // Slide Images
 import Coding from "../images/life/slideshow/coding.jpg"
+import DDR from "../images/life/slideshow/DDR.gif"
 import Downtown1 from "../images/life/slideshow/downtown1.jpg"
 import Downtown2 from "../images/life/slideshow/downtown2.jpg"
 import Outdoors1 from "../images/life/slideshow/outdoors1.jpg"
@@ -66,12 +67,16 @@ const LifePage = () => (
         <SingleSlide>
           <h1>Play DDR!</h1>
           <iframe
+            id="DDR-video"
+            title="DDR"
             src="https://drive.google.com/file/d/1dkXQ0zXHG-LvBMgunJ4B4LHgI_k1pZVp/preview"
             width="512"
             height="384"
-            style={{ border: 'none' }}
-            allow="autoplay">
-          </iframe>
+            style={{ border: "none" }}
+            allowFullScreen
+            allow="autoplay"
+          ></iframe>
+          <img id="DDR-gif" src={DDR} alt="DDR" />
         </SingleSlide>
         <SingleSlide>
           <h1>Explore downtown Austin!</h1>
@@ -107,9 +112,7 @@ const LifePage = () => (
       <Link to="/life/austin-food">
         <SectionCard color="pinkYellow" delay={3}>
           <h3>Austin Food Favorites</h3>
-          <p>
-            My recommendations for restaurants to try in Austin.
-          </p>
+          <p>My recommendations for restaurants to try in Austin.</p>
         </SectionCard>
       </Link>
       <Link to="/life/swe">
