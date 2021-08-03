@@ -64,6 +64,16 @@ const LifePage = () => (
           <img src={Coding} alt="Coding" />
         </SingleSlide>
         <SingleSlide>
+          <h1>Play DDR!</h1>
+          <iframe
+            src="https://drive.google.com/file/d/1dkXQ0zXHG-LvBMgunJ4B4LHgI_k1pZVp/preview"
+            width="512"
+            height="384"
+            style={{ border: 'none' }}
+            allow="autoplay">
+          </iframe>
+        </SingleSlide>
+        <SingleSlide>
           <h1>Explore downtown Austin!</h1>
           <div>
             <img src={Downtown1} alt="Biking" />

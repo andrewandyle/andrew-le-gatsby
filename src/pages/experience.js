@@ -27,10 +27,10 @@ import CPP from '../images/experience/icons/cpp.svg'
 import JavaScript from '../images/experience/icons/javascript.svg'
 import Swift from '../images/experience/icons/swift.svg'
 import ReactIcon from '../images/experience/icons/react.svg'
+import Angular from '../images/experience/icons/angular.svg'
 import GraphQL from '../images/experience/icons/graphql.svg'
 import AWS from '../images/experience/icons/aws.svg'
 import MySQL from '../images/experience/icons/mysql.svg'
-import Django from '../images/experience/icons/django.svg'
 
 // Icons for Timeline
 import UTAustin from '../images/experience/logos/utaustin.png'
@@ -62,16 +62,16 @@ const ExperiencePage = () => (
         <img src={ReactIcon} alt="React" /> React
       </SingleSkill>
       <SingleSkill delay={7}>
-        <img src={GraphQL} alt="GraphQL" /> GraphQL
+        <img src={Angular} alt="Angular" /> Angular
       </SingleSkill>
       <SingleSkill delay={8}>
-        <img src={AWS} alt="AWS" /> AWS
+        <img src={GraphQL} alt="GraphQL" /> GraphQL
       </SingleSkill>
       <SingleSkill delay={9}>
-        <img src={MySQL} alt="MySQL" /> MySQL
+        <img src={AWS} alt="AWS" /> AWS
       </SingleSkill>
       <SingleSkill delay={10}>
-        <img src={Django} alt="Django" /> Django
+        <img src={MySQL} alt="MySQL" /> MySQL
       </SingleSkill>
     </Marquee>
 
@@ -125,13 +125,18 @@ const ExperiencePage = () => (
         </VerticalTimelineElement>
         <VerticalTimelineElement
           contentStyle={{ borderTop: 'solid 4px #10c0f2' }}
-          date="June 2021"
+          date="June 2021 - August 2021"
           icon={<img id="citi" src={Citi} alt="Citi" width={50} />}
           iconStyle={{ display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'linear-gradient(to top, #00529b, #10c0f2)' }}
         >
-          <h3>Global Consumer Technology Summer Analyst</h3>
-          <h4>Citibank</h4>
-          <h4>Incoming Intern for Summer 2021</h4>
+          <SkillBubbles>
+            <Skill>Angular</Skill>
+          </SkillBubbles>
+          <h3>Global Consumer Technology Analyst</h3>
+          <h4>Citi</h4>
+          <LinksContainer color="blue">
+            <TimelineLink href="https://www.citi.com/" target="_blank" rel="noreferrer">MAIN WEBSITE</TimelineLink>
+          </LinksContainer>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </TimelineContainer>
