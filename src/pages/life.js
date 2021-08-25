@@ -69,7 +69,7 @@ const LifePage = () => (
           <iframe
             id="DDR-video"
             title="DDR"
-            src="https://drive.google.com/file/d/1dkXQ0zXHG-LvBMgunJ4B4LHgI_k1pZVp/preview"
+            src="https://drive.google.com/file/d/1qzsadumTwrYVpq1njyeiZfXiuPMHOWMD/preview"
             width="512"
             height="384"
             style={{ border: "none" }}
