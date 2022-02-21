@@ -51,7 +51,7 @@ const IndexPage = () => (
         </Marquee>
         <Marquee gradientColor={[18, 18, 18]} speed={60} style={{ marginTop: 30, height: 125 }}>
           <img src={ArrowSlow} alt="Arrow" style={{ maxWidth: 125, maxHeight: 125 }} />
-          <div style={{ width: 500 }}></div>
+          <div style={{ width: 1000 }}></div>
         </Marquee>
       </MarqueeContainer>
       <LogoContainer>

@@ -21,6 +21,10 @@ export const LogoContainer = styled.div`
     animation: ${fadeInFromLeft};
     animation-duration: 800ms;
     width: 500px;
+
+    @media only screen and (max-width: 768px) {
+      width: 250px;
+    }
   }
 
   #logo {
@@ -32,6 +36,10 @@ export const LogoContainer = styled.div`
 
     @media only screen and (max-width: 900px) {
       position: relative;
+    }
+
+    @media only screen and (max-width: 768px) {
+      width: 300px;
     }
   }
 
@@ -69,6 +77,10 @@ export const MarqueeContainer = styled.div`
   z-index: -1;
   transform: rotate(20deg);
   filter: brightness(0.75);
+
+  @media only screen and (max-width: 768px) {
+    transform: none;
+  }
 `
 
 export const DownloadResume = styled.a`
