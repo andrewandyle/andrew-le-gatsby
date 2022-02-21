@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Andrew Le's Website`,
-    description: `Andrew Le's portfolio website, using Gatsby.`,
+    description: `Hello! I'm Andrew Le, a Software Engineer at Citi and Computer Science graduate from The University of Texas at Austin.`,
     author: `@andrewandyle`,
   },
   plugins: [

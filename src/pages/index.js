@@ -28,22 +28,27 @@ import ArrowBlue from '../images/icons/arrow-blue.gif'
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div style={{ position: "relative" }}>
+    <div style={{ position: "relative", overflow: "hidden" }}>
       <MarqueeContainer>
         <Marquee gradientColor={[18, 18, 18]} speed={150} style={{ height: 50 }}>
-          <img src={ArrowBlue} alt="Arrow" style={{ maxWidth: 50, maxHeight: 50}} />
+          <img src={ArrowBlue} alt="Arrow" style={{ maxWidth: 50, maxHeight: 50 }} />
+          <div style={{ width: 400 }}></div>
         </Marquee>
         <Marquee gradientColor={[18, 18, 18]} speed={100} style={{ marginTop: 30, height: 100 }}>
-          <img src={Arrow} alt="Arrow" style={{ maxWidth: 100, maxHeight: 100}} />
+          <img src={Arrow} alt="Arrow" style={{ maxWidth: 100, maxHeight: 100 }} />
+          <div style={{ width: 400 }}></div>
         </Marquee>
         <Marquee gradientColor={[18, 18, 18]} speed={75} style={{ marginTop: 20, height: 75 }}>
-          <img src={Arrow} alt="Arrow" style={{ maxWidth: 75, maxHeight: 75}} />
+          <img src={Arrow} alt="Arrow" style={{ maxWidth: 75, maxHeight: 75 }} />
+          <div style={{ width: 400 }}></div>
         </Marquee>
         <Marquee gradientColor={[18, 18, 18]} speed={125} style={{ marginTop: 40, height: 60 }}>
-          <img src={ArrowBlue} alt="Arrow" style={{ maxWidth: 60, maxHeight: 60}} />
+          <img src={ArrowBlue} alt="Arrow" style={{ maxWidth: 60, maxHeight: 60 }} />
+          <div style={{ width: 400 }}></div>
         </Marquee>
         <Marquee gradientColor={[18, 18, 18]} speed={60} style={{ marginTop: 30, height: 125 }}>
-          <img src={ArrowSlow} alt="Arrow" style={{ maxWidth: 125, maxHeight: 125}} />
+          <img src={ArrowSlow} alt="Arrow" style={{ maxWidth: 125, maxHeight: 125 }} />
+          <div style={{ width: 400 }}></div>
         </Marquee>
       </MarqueeContainer>
       <LogoContainer>

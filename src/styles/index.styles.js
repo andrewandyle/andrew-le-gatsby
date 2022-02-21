@@ -61,10 +61,6 @@ export const MarqueeContainer = styled.div`
   z-index: -1;
   transform: rotate(20deg);
   filter: brightness(0.75);
-
-  @media only screen and (max-width: 768px) {
-    display: none
-  }
 `
 
 export const DownloadResume = styled.a`
