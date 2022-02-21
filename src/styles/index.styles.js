@@ -82,3 +82,43 @@ export const DownloadResume = styled.a`
     transition: 600ms ease;
   }
 `
+
+export const AboutMe = styled.div`
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  margin-top: 75px;
+  margin-bottom: 50px;
+
+  & a {
+    color: white;
+
+    &:visited {
+      color: gray;
+    }
+  }
+
+  & img {
+    animation: ${fadeInFromLeft};
+    animation-duration: 1000ms;
+    width: 350px;
+    margin-right: 50px;
+  }
+
+  & div {
+    animation: ${fadeInFromRight};
+    animation-duration: 1000ms;
+  }
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+    font-size: 18px;
+    margin-bottom: 25px;
+
+    & img {
+      width: 300px;
+      margin-right: 0;
+      margin-bottom: 50px;
+    }
+  }
+`

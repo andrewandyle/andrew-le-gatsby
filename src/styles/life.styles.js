@@ -1,37 +1,6 @@
 import styled from 'styled-components'
 import { gradients, shadows } from './colors'
-import { fadeInFromTop, fadeInFromLeft, fadeInFromRight } from './keyframes'
-
-export const AboutMe = styled.div`
-  display: flex;
-  align-items: center;
-  font-size: 22px;
-  margin-bottom: 50px;
-
-  & img {
-    animation: ${fadeInFromLeft};
-    animation-duration: 1000ms;
-    width: 400px;
-    margin-right: 50px;
-  }
-
-  & div {
-    animation: ${fadeInFromRight};
-    animation-duration: 1000ms;
-  }
-
-  @media only screen and (max-width: 768px) {
-    flex-direction: column;
-    font-size: 18px;
-    margin-bottom: 25px;
-
-    & img {
-      width: 300px;
-      margin-right: 0;
-      margin-bottom: 50px;
-    }
-  }
-`
+import { fadeInFromTop } from './keyframes'
 
 export const SectionsContainer = styled.div`
   display: flex;

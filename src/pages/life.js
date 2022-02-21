@@ -8,7 +8,6 @@ import SEO from "../components/seo"
 import { Slide } from "react-slideshow-image"
 import "react-slideshow-image/dist/styles.css"
 
-import Avatar from "../images/icons/avatar.png"
 // Slide Images
 import Coding from "../images/life/slideshow/coding.jpg"
 import DDR from "../images/life/slideshow/DDR.gif"
@@ -21,7 +20,6 @@ import Sushi2 from "../images/life/slideshow/sushi2.jpg"
 import Piano from "../images/life/slideshow/piano.jpg"
 
 import {
-  AboutMe,
   SlideshowContainer,
   SingleSlide,
   SectionsContainer,
@@ -31,28 +29,6 @@ import {
 const LifePage = () => (
   <Layout back="/">
     <SEO title="Life" />
-    <h1>About Me</h1>
-    <AboutMe>
-      <img id="avatar" src={Avatar} alt="Avatar" />
-      <div>
-        <p>
-          Hello! I'm Andrew Le, a Computer Science major at The University of
-          Texas at Austin.
-        </p>
-        <p>
-          I'm passionate about collaborating with teams to develop meaningful
-          software products and features to provide to clients. I enjoy hands-on
-          learning for new skills, and I strive to continuously improve as a
-          developer and team player.
-        </p>
-        <p>
-          Aside from that, I'm as much of an outdoor person as I am an indoor
-          person. Some days I go out to bike, find new views or restaurants, and
-          work out. Other days I look up Reddit memes, play RPGs, or binge watch
-          animes.
-        </p>
-      </div>
-    </AboutMe>
     <SlideshowContainer>
       <Slide
         autoplay={false}
