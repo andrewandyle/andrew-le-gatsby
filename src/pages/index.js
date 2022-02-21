@@ -4,6 +4,7 @@ import SEO from "../components/seo"
 
 // Styled Components
 import {
+  Wrapper,
   LogoContainer,
   ButtonContainer,
   MarqueeContainer,
@@ -30,7 +31,7 @@ import ArrowBlue from '../images/icons/arrow-blue.gif'
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div style={{ position: "relative", overflow: "hidden" }}>
+    <Wrapper>
       <MarqueeContainer>
         <Marquee gradientColor={[18, 18, 18]} speed={150} style={{ height: 50 }}>
           <img src={ArrowBlue} alt="Arrow" style={{ maxWidth: 50, maxHeight: 50 }} />
@@ -99,7 +100,7 @@ const IndexPage = () => (
           </p>
         </div>
       </AboutMe>
-    </div>
+    </Wrapper>
   </Layout>
 )
 

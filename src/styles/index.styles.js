@@ -2,6 +2,14 @@ import styled from 'styled-components'
 import { gradients, shadows } from './colors'
 import { fadeInFromTop, fadeInFromLeft, fadeInFromRight } from './keyframes'
 
+export const Wrapper = styled.div`
+  position: relative;
+
+  @media only screen and (max-width: 768px) {
+    overflow: hidden;
+  }
+`
+
 export const LogoContainer = styled.div`
   position: relative;
   display: flex;
