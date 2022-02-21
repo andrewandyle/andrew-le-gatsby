@@ -2,6 +2,7 @@ import styled, { createGlobalStyle } from 'styled-components'
 import { gradients, shadows } from '../colors'
 
 export const BackContainer = styled.div`
+  margin-top: 30px;
   margin-bottom: 30px;
 
   & a {

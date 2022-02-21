@@ -12,10 +12,10 @@ import {
   Info,
   PictureContent,
   AccordionContainer,
-} from "../../styles/life/austin-food.styles"
+} from "../styles/life/austin-food.styles"
 
-import Layout from "../../components/layout"
-import SEO from "../../components/seo"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 // Accordion
 import {
@@ -355,7 +355,7 @@ const AustinFoodPage = () => {
   const [activePlace, setActivePlace] = useState(null)
 
   return (
-    <Layout back="/life">
+    <Layout back="/">
       <SEO title="Austin Food Favorites" />
       <h1>Austin Food Favorites</h1>
       <p>
