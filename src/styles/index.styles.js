@@ -54,6 +54,15 @@ export const ButtonContainer = styled.div`
   }
 `
 
+export const MarqueeContainer = styled.div`
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  transform: rotate(20deg);
+  filter: brightness(0.75);
+`
+
 export const DownloadResume = styled.a`
   color: white;
   font-weight: 500;
