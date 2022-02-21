@@ -78,9 +78,9 @@ export const MarqueeContainer = styled.div`
   transform: rotate(20deg);
   filter: brightness(0.75);
 
-  ${({ isMobile }) => `
-    transform: ${!isMobile ? 'rotate(20deg)' : 'none'};
-  };`}
+  @media only screen and (max-width: 768px) {
+    transform: none;
+  }
 `
 
 export const DownloadResume = styled.a`
